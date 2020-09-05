@@ -1,0 +1,632 @@
+[
+  {
+    "nonPprId": "1. (6)",
+    "playerId": "Michael Thomas, NO",
+    "auction": "$51",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "2. (16)",
+    "playerId": "Davante Adams, GB",
+    "auction": "$40",
+    "bye": 5,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "3. (17)",
+    "playerId": "DeAndre Hopkins, ARI",
+    "auction": "$37",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "4. (18)",
+    "playerId": "Tyreek Hill, KC",
+    "auction": "$36",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "5. (19)",
+    "playerId": "Julio Jones, ATL",
+    "auction": "$36",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "6. (21)",
+    "playerId": "Chris Godwin, TB",
+    "auction": "$35",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "7. (22)",
+    "playerId": "Mike Evans, TB",
+    "auction": "$33",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "8. (24)",
+    "playerId": "Kenny Golladay, DET",
+    "auction": "$32",
+    "bye": 5,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "9. (25)",
+    "playerId": "DJ Moore, CAR",
+    "auction": "$31",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "10. (26)",
+    "playerId": "Allen Robinson II, CHI",
+    "auction": "$30",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "11. (27)",
+    "playerId": "Adam Thielen, MIN",
+    "auction": "$30",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "12. (28)",
+    "playerId": "Amari Cooper, DAL",
+    "auction": "$29",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "13. (29)",
+    "playerId": "JuJu Smith-Schuster, PIT",
+    "auction": "$28",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "14. (30)",
+    "playerId": "Courtland Sutton, DEN",
+    "auction": "$26",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "15. (31)",
+    "playerId": "Odell Beckham Jr., CLE",
+    "auction": "$26",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "16. (32)",
+    "playerId": "A.J. Brown, TEN",
+    "auction": "$25",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "17. (33)",
+    "playerId": "Calvin Ridley, ATL",
+    "auction": "$24",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "18. (36)",
+    "playerId": "Tyler Lockett, SEA",
+    "auction": "$22",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "19. (37)",
+    "playerId": "Robert Woods, LAR",
+    "auction": "$22",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "20. (38)",
+    "playerId": "Cooper Kupp, LAR",
+    "auction": "$21",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "21. (50)",
+    "playerId": "T.Y. Hilton, IND",
+    "auction": "$13",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "22. (51)",
+    "playerId": "Terry McLaurin, WAS",
+    "auction": "$12",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "23. (52)",
+    "playerId": "Keenan Allen, LAC",
+    "auction": "$11",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "24. (53)",
+    "playerId": "DK Metcalf, SEA",
+    "auction": "$11",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "25. (54)",
+    "playerId": "Jarvis Landry, CLE",
+    "auction": "$10",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "26. (55)",
+    "playerId": "DJ Chark Jr., JAC",
+    "auction": "$10",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "27. (61)",
+    "playerId": "DeVante Parker, MIA",
+    "auction": "$8",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "28. (62)",
+    "playerId": "Stefon Diggs, BUF",
+    "auction": "$8",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "29. (63)",
+    "playerId": "A.J. Green, CIN",
+    "auction": "$8",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "30. (64)",
+    "playerId": "Michael Gallup, DAL",
+    "auction": "$7",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "31. (65)",
+    "playerId": "Tyler Boyd, CIN",
+    "auction": "$7",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "32. (66)",
+    "playerId": "Will Fuller V, HOU",
+    "auction": "$7",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "33. (67)",
+    "playerId": "Marquise Brown, BAL",
+    "auction": "$7",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "34. (68)",
+    "playerId": "Deebo Samuel, SF",
+    "auction": "$6",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "35. (77)",
+    "playerId": "Marvin Jones Jr., DET",
+    "auction": "$5",
+    "bye": 5,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "36. (78)",
+    "playerId": "Julian Edelman, NE",
+    "auction": "$4",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "37. (79)",
+    "playerId": "Brandin Cooks, HOU",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "38. (80)",
+    "playerId": "Diontae Johnson, PIT",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "39. (81)",
+    "playerId": "Sterling Shepard, NYG",
+    "auction": "$4",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "40. (84)",
+    "playerId": "Christian Kirk, ARI",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "41. (94)",
+    "playerId": "Jamison Crowder, NYJ",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "42. (95)",
+    "playerId": "Preston Williams, MIA",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "43. (96)",
+    "playerId": "Robby Anderson, CAR",
+    "auction": "$2",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "44. (97)",
+    "playerId": "Golden Tate, NYG",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "45. (98)",
+    "playerId": "Darius Slayton, NYG",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "46. (99)",
+    "playerId": "John Brown, BUF",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "47. (100)",
+    "playerId": "Emmanuel Sanders, NO",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "48. (101)",
+    "playerId": "Mecole Hardman, KC",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "49. (102)",
+    "playerId": "Henry Ruggs III, LV",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "50. (106)",
+    "playerId": "DeSean Jackson, PHI",
+    "auction": "$2",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "51. (107)",
+    "playerId": "Breshad Perriman, NYJ",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "52. (108)",
+    "playerId": "Jerry Jeudy, DEN",
+    "auction": "$2",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "53. (109)",
+    "playerId": "Mike Williams, LAC",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "54. (123)",
+    "playerId": "Curtis Samuel, CAR",
+    "auction": "$1",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "55. (124)",
+    "playerId": "CeeDee Lamb, DAL",
+    "auction": "$1",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "56. (125)",
+    "playerId": "N'Keal Harry, NE",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "57. (126)",
+    "playerId": "Anthony Miller, CHI",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "58. (127)",
+    "playerId": "Parris Campbell, IND",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "59. (144)",
+    "playerId": "Justin Jefferson, MIN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "60. (145)",
+    "playerId": "Brandon Aiyuk, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "61. (146)",
+    "playerId": "Sammy Watkins, KC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "62. (147)",
+    "playerId": "Randall Cobb, HOU",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "63. (148)",
+    "playerId": "Alshon Jeffery, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "64. (149)",
+    "playerId": "Allen Lazard, GB",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "65. (150)",
+    "playerId": "Michael Pittman Jr., IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "66. (151)",
+    "playerId": "Larry Fitzgerald, ARI",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "67. (152)",
+    "playerId": "Jalen Reagor, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "68. (153)",
+    "playerId": "Denzel Mims, NYJ",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "69. (154)",
+    "playerId": "Tee Higgins, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "70. (194)",
+    "playerId": "Chase Claypool, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "71. (195)",
+    "playerId": "Van Jefferson, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "72. (196)",
+    "playerId": "James Washington, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "73. (197)",
+    "playerId": "Laviska Shenault Jr., JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "74. (198)",
+    "playerId": "Russell Gage, ATL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "75. (213)",
+    "playerId": "Steven Sims Jr., WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "76. (214)",
+    "playerId": "Corey Davis, TEN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "77. (215)",
+    "playerId": "Cole Beasley, BUF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "78. (216)",
+    "playerId": "Josh Reynolds, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "79. (217)",
+    "playerId": "Antonio Brown, FA",
+    "auction": "$0",
+    "bye": 0,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "80. (218)",
+    "playerId": "Danny Amendola, DET",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "81. (225)",
+    "playerId": "Bryan Edwards, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "82. (226)",
+    "playerId": "Dede Westbrook, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "83. (227)",
+    "playerId": "Scotty Miller, TB",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "84. (228)",
+    "playerId": "Hunter Renfrow, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "85. (229)",
+    "playerId": "Trent Taylor, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "86. (230)",
+    "playerId": "Chris Conley, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "87. (231)",
+    "playerId": "Devin Duvernay, BAL",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "88. (232)",
+    "playerId": "Jakeem Grant, MIA",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "89. (233)",
+    "playerId": "Antonio Gandy-Golden, WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR"
+  },
+  {
+    "nonPprId": "90. (234)",
+    "playerId": "John Ross III, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR"
+  }
+]
