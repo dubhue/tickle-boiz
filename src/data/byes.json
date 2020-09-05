@@ -1,0 +1,200 @@
+[
+  {
+    "city": "Arizona",
+    "team": "ARI",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "Atlanta",
+    "team": "ATL",
+    "byeWeek": "Week 10",
+    "bye": 10
+  },
+  {
+    "city": "Baltimore",
+    "team": "BAL",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "Buffalo",
+    "team": "BUF",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "Carolina",
+    "team": "CAR",
+    "byeWeek": "Week 13",
+    "bye": 13
+  },
+  {
+    "city": "Chicago",
+    "team": "CHI",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "Cincinnati",
+    "team": "CIN",
+    "byeWeek": "Week 9",
+    "bye": 9
+  },
+  {
+    "city": "Cleveland",
+    "team": "CLE",
+    "byeWeek": "Week 9",
+    "bye": 9
+  },
+  {
+    "city": "Dallas",
+    "team": "DAL",
+    "byeWeek": "Week 10",
+    "bye": 10
+  },
+  {
+    "city": "Denver",
+    "team": "DEN",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "Detroit",
+    "team": "DET",
+    "byeWeek": "Week 5",
+    "bye": 5
+  },
+  {
+    "city": "Green Bay",
+    "team": "GB",
+    "byeWeek": "Week 5",
+    "bye": 5
+  },
+  {
+    "city": "Houston",
+    "team": "HOU",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "Indianapolis",
+    "team": "IND",
+    "byeWeek": "Week 7",
+    "bye": 7
+  },
+  {
+    "city": "Jacksonville",
+    "team": "JAC",
+    "byeWeek": "Week 7",
+    "bye": 7
+  },
+  {
+    "city": "Kansas City",
+    "team": "KC",
+    "byeWeek": "Week 10",
+    "bye": 10
+  },
+  {
+    "city": "Las Vegas",
+    "team": "LV",
+    "byeWeek": "Week 6",
+    "bye": 6
+  },
+  {
+    "city": "Los Angeles Chargers",
+    "team": "LAC",
+    "byeWeek": "Week 10",
+    "bye": 10
+  },
+  {
+    "city": "Los Angeles Rams",
+    "team": "LAR",
+    "byeWeek": "Week 9",
+    "bye": 9
+  },
+  {
+    "city": "Miami",
+    "team": "MIA",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "Minnesota",
+    "team": "MIN",
+    "byeWeek": "Week 7",
+    "bye": 7
+  },
+  {
+    "city": "New England",
+    "team": "NE",
+    "byeWeek": "Week 6",
+    "bye": 6
+  },
+  {
+    "city": "New Orleans",
+    "team": "NO",
+    "byeWeek": "Week 6",
+    "bye": 6
+  },
+  {
+    "city": "New York Giants",
+    "team": "NYG",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "New York Jets",
+    "team": "NYJ",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "Philadelphia",
+    "team": "PHI",
+    "byeWeek": "Week 9",
+    "bye": 9
+  },
+  {
+    "city": "Pittsburgh",
+    "team": "PIT",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "San Francisco",
+    "team": "SF",
+    "byeWeek": "Week 11",
+    "bye": 11
+  },
+  {
+    "city": "Seattle",
+    "team": "SEA",
+    "byeWeek": "Week 6",
+    "bye": 6
+  },
+  {
+    "city": "Tampa Bay",
+    "team": "TB",
+    "byeWeek": "Week 13",
+    "bye": 13
+  },
+  {
+    "city": "Tennessee",
+    "team": "TEN",
+    "byeWeek": "Week 7",
+    "bye": 7
+  },
+  {
+    "city": "Washington",
+    "team": "WAS",
+    "byeWeek": "Week 8",
+    "bye": 8
+  },
+  {
+    "city": "Free Agent",
+    "team": "FA",
+    "byeWeek": "Week 0",
+    "bye": 0
+  }
+]

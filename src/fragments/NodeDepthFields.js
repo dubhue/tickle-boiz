@@ -6,5 +6,7 @@ export const NodeDepthFields = graphql`
     pos
     team
     depthId
+    status
+    cost
   }
 `;

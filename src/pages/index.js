@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../components/layout/MainLayout";
 import { graphql, useStaticQuery } from "gatsby";
-import { Table } from "react-bootstrap";
+import { Table, Button, Form, Container, Row, Col } from "react-bootstrap";
+import PlayerRow from "../components/fantasy/PlayerRow";
 
 const slugify = (string) => {
   const a =
@@ -27,15 +28,28 @@ const getPlayers = (graph) => {
   const espn = graph.allEspnJson.edges.map((e) => e.node);
   const dynasty = graph.allDynastyJson.edges.map((e) => e.node);
   const rookies = graph.allRookiesJson.edges.map((e) => e.node);
+  const byes = graph.allByesJson.edges.map((e) => e.node);
   const players = {};
+  const getByeWeek = (name) => {
+    let byeWeek = null;
+    byes.forEach((b) => {
+      const { team, bye } = b;
+      if (name.indexOf(team) > -1) {
+        byeWeek = bye;
+      }
+    });
+    return byeWeek;
+  };
   depth.forEach((player) => {
-    const { playerId, depthId, pos, team } = player;
+    const { playerId, depthId, pos, team, status, cost } = player;
     if (playerId !== "") {
       players[slugify(playerId)] = {
         depth: depthId,
         pos,
         team,
         name: playerId,
+        status: status === "" ? "available" : status,
+        cost,
       };
     }
   });
@@ -94,30 +108,124 @@ const getPlayers = (graph) => {
     players[slugify(playerId)] = copy;
   });
   return Object.keys(players).map((key) => {
+    const {
+      rank,
+      espnRankPos,
+      depth,
+      pos,
+      auction,
+      bye,
+      name,
+      dynasty,
+      age,
+    } = players[key];
+    players[key] = rank ? players[key] : { ...players[key], rank: 999 };
+    players[key] = espnRankPos
+      ? players[key]
+      : { ...players[key], espnRankPos: 999 };
+    players[key] = depth
+      ? players[key]
+      : { ...players[key], depth: pos === "D/ST" ? pos : "BENCH" };
+    players[key] = auction ? players[key] : { ...players[key], auction: 0 };
+    players[key] = bye
+      ? players[key]
+      : { ...players[key], bye: getByeWeek(name) };
+    players[key] = dynasty ? players[key] : { ...players[key], dynasty: "N/A" };
+    players[key] = pos
+      ? players[key]
+      : { ...players[key], pos: getPosFromDynasty(dynasty) };
+    players[key] = age ? players[key] : { ...players[key], age: "N/A" };
     return { ...players[key], slug: key };
   });
 };
 
+const getPosFromDynasty = (dynasty) => {
+  const _dyn = dynasty ? dynasty : "0. (NA)";
+  const index = _dyn.indexOf("(") + 1;
+  return _dyn.slice(index, index + 2);
+};
+
 const compare = (a, b) => {
-  const playerA = a.auction;
-  const playerB = b.auction;
+  //console.log(a, b);
+  const playerA = a.rank;
+  const playerB = b.rank;
 
   let comparison = 0;
   if (playerA > playerB) {
-    comparison = -1;
-  } else if (playerA < playerB) {
     comparison = 1;
+  } else if (playerA < playerB) {
+    comparison = -1;
   }
   return comparison;
 };
 
 const IndexPage = ({ pageContext }) => {
+  const [hideKeepers, setHideKeepers] = useState(true);
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchKey, setSearchKey] = useState("");
+  const [allP, setAll] = useState([]);
   const graph = useStaticQuery(query);
-  const all = getPlayers(graph);
-  all.sort(compare);
-  console.log(all);
+  useEffect(() => {
+    const all = getPlayers(graph);
+    all.sort(compare);
+    setSearchResults(all);
+    setAll(all);
+  }, [graph]);
+  const toggleKeepers = () => {
+    setHideKeepers((h) => !h);
+  };
+  const handleSearch = (e) => {
+    e.preventDefault();
+    setSearchKey(e.target.querySelector(".form-control").value);
+    let search = searchResults.filter((item) => {
+      const lower = item.name.toLowerCase();
+      return lower.includes(searchKey);
+    });
+    setSearchResults(searchKey !== "" ? search : allP);
+  };
+  const draftPlayer = (index) => {
+    //console.log("drafting");
+    const all = [...searchResults];
+    const status = all[index]["status"];
+    if (status === "drafted") {
+      all[index]["status"] = "available";
+    } else {
+      all[index]["status"] = "drafted";
+    }
+    setSearchResults(all);
+  };
+  const handleInput = (e) => {
+    setSearchKey(e.target.value);
+  };
   return (
     <Layout>
+      <Container>
+        <Row>
+          <Col>
+            <Form onSubmit={handleSearch}>
+              <Form.Group controlId="formSearch">
+                <Form.Label>Search</Form.Label>
+                <Form.Control
+                  type="text"
+                  value={searchKey}
+                  onChange={handleInput}
+                />
+              </Form.Group>
+              {/* <Button variant="info" onSubmit={handleSearch}>
+                Search
+              </Button> */}
+            </Form>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Form.Group>
+              <Button onClick={toggleKeepers}>Toggle Drafted</Button>
+            </Form.Group>
+          </Col>
+        </Row>
+      </Container>
+
       <Table>
         <thead>
           <tr>
@@ -129,49 +237,21 @@ const IndexPage = ({ pageContext }) => {
             <th>Bye</th>
             <th>Dynasty</th>
             <th>Position</th>
+            <th>Age</th>
+            <th>X</th>
           </tr>
         </thead>
         <tbody>
-          {all.map((player) => {
-            const {
-              name,
-              slug,
-              depth,
-              pos,
-              espnRankPos,
-              rank,
-              isRookie,
-              dynasty,
-              auction,
-              bye,
-            } = player;
+          {searchResults.map((player, index) => {
+            const { slug } = player;
             return (
-              <tr key={slug}>
-                <td
-                  style={
-                    isRookie
-                      ? { color: "green", fontWeight: "bold" }
-                      : undefined
-                  }
-                >
-                  {name}
-                </td>
-                <td>{rank}</td>
-                <td>{espnRankPos}</td>
-                <td>{depth}</td>
-                <td>{auction}</td>
-                <td>{bye}</td>
-                <td
-                  style={
-                    isRookie
-                      ? { color: "green", fontWeight: "bold" }
-                      : undefined
-                  }
-                >
-                  {dynasty}
-                </td>
-                <td>{pos}</td>
-              </tr>
+              <PlayerRow
+                key={slug}
+                hide={hideKeepers}
+                player={player}
+                index={index}
+                draftAction={draftPlayer}
+              />
             );
           })}
         </tbody>
@@ -209,6 +289,13 @@ const query = graphql`
       edges {
         node {
           ...NodeRookiesFields
+        }
+      }
+    }
+    allByesJson {
+      edges {
+        node {
+          ...NodeByeFields
         }
       }
     }
