@@ -1,0 +1,2822 @@
+[
+  {
+    "espnId": "1. (34)",
+    "playerId": "Lamar Jackson, BAL",
+    "auction": "$23",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 1,
+    "espnRankOverall": "(34)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "2. (35)",
+    "playerId": "Patrick Mahomes, KC",
+    "auction": "$22",
+    "bye": 10,
+    "pos": "QB",
+    "espnRankPos": 2,
+    "espnRankOverall": "(35)",
+    "team": "KC"
+  },
+  {
+    "espnId": "3. (73)",
+    "playerId": "Deshaun Watson, HOU",
+    "auction": "$6",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 3,
+    "espnRankOverall": "(73)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "4. (74)",
+    "playerId": "Kyler Murray, ARI",
+    "auction": "$5",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 4,
+    "espnRankOverall": "(74)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "5. (75)",
+    "playerId": "Dak Prescott, DAL",
+    "auction": "$5",
+    "bye": 10,
+    "pos": "QB",
+    "espnRankPos": 5,
+    "espnRankOverall": "(75)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "6. (76)",
+    "playerId": "Russell Wilson, SEA",
+    "auction": "$5",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 6,
+    "espnRankOverall": "(76)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "7. (116)",
+    "playerId": "Matt Ryan, ATL",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "QB",
+    "espnRankPos": 7,
+    "espnRankOverall": "(116)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "8. (117)",
+    "playerId": "Tom Brady, TB",
+    "auction": "$2",
+    "bye": 13,
+    "pos": "QB",
+    "espnRankPos": 8,
+    "espnRankOverall": "(117)",
+    "team": "TB"
+  },
+  {
+    "espnId": "9. (118)",
+    "playerId": "Carson Wentz, PHI",
+    "auction": "$2",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 9,
+    "espnRankOverall": "(118)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "10. (119)",
+    "playerId": "Josh Allen, BUF",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 10,
+    "espnRankOverall": "(119)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "11. (120)",
+    "playerId": "Drew Brees, NO",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 11,
+    "espnRankOverall": "(120)",
+    "team": "NO"
+  },
+  {
+    "espnId": "12. (121)",
+    "playerId": "Matthew Stafford, DET",
+    "auction": "$1",
+    "bye": 5,
+    "pos": "QB",
+    "espnRankPos": 12,
+    "espnRankOverall": "(121)",
+    "team": "DET"
+  },
+  {
+    "espnId": "13. (122)",
+    "playerId": "Aaron Rodgers, GB",
+    "auction": "$1",
+    "bye": 5,
+    "pos": "QB",
+    "espnRankPos": 13,
+    "espnRankOverall": "(122)",
+    "team": "GB"
+  },
+  {
+    "espnId": "14. (137)",
+    "playerId": "Daniel Jones, NYG",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 14,
+    "espnRankOverall": "(137)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "15. (138)",
+    "playerId": "Ben Roethlisberger, PIT",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 15,
+    "espnRankOverall": "(138)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "16. (164)",
+    "playerId": "Cam Newton, NE",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 16,
+    "espnRankOverall": "(164)",
+    "team": "NE"
+  },
+  {
+    "espnId": "17. (165)",
+    "playerId": "Ryan Tannehill, TEN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "QB",
+    "espnRankPos": 17,
+    "espnRankOverall": "(165)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "18. (166)",
+    "playerId": "Jared Goff, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 18,
+    "espnRankOverall": "(166)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "19. (167)",
+    "playerId": "Baker Mayfield, CLE",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 19,
+    "espnRankOverall": "(167)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "20. (168)",
+    "playerId": "Jimmy Garoppolo, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 20,
+    "espnRankOverall": "(168)",
+    "team": "SF"
+  },
+  {
+    "espnId": "21. (212)",
+    "playerId": "Kirk Cousins, MIN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "QB",
+    "espnRankPos": 21,
+    "espnRankOverall": "(212)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "22. (219)",
+    "playerId": "Joe Burrow, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 22,
+    "espnRankOverall": "(219)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "23. (220)",
+    "playerId": "Drew Lock, DEN",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 23,
+    "espnRankOverall": "(220)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "24. (243)",
+    "playerId": "Gardner Minshew II, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "QB",
+    "espnRankPos": 24,
+    "espnRankOverall": "(243)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "25. (244)",
+    "playerId": "Derek Carr, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 25,
+    "espnRankOverall": "(244)",
+    "team": "LV"
+  },
+  {
+    "espnId": "26. (245)",
+    "playerId": "Philip Rivers, IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "QB",
+    "espnRankPos": 26,
+    "espnRankOverall": "(245)",
+    "team": "IND"
+  },
+  {
+    "espnId": "27. (266)",
+    "playerId": "Sam Darnold, NYJ",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 27,
+    "espnRankOverall": "(266)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "28. (267)",
+    "playerId": "Teddy Bridgewater, CAR",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "QB",
+    "espnRankPos": 28,
+    "espnRankOverall": "(267)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "29. (268)",
+    "playerId": "Tua Tagovailoa, MIA",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 29,
+    "espnRankOverall": "(268)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "30. (269)",
+    "playerId": "Dwayne Haskins Jr., WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "QB",
+    "espnRankPos": 30,
+    "espnRankOverall": "(269)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "31. (270)",
+    "playerId": "Tyrod Taylor, LAC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "QB",
+    "espnRankPos": 31,
+    "espnRankOverall": "(270)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "32. (296)",
+    "playerId": "Nick Foles, CHI",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 32,
+    "espnRankOverall": "(296)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "33. (301)",
+    "playerId": "Justin Herbert, LAC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "QB",
+    "espnRankPos": 33,
+    "espnRankOverall": "(301)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "34. (302)",
+    "playerId": "Mitchell Trubisky, CHI",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 34,
+    "espnRankOverall": "(302)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "35. (310)",
+    "playerId": "Ryan Fitzpatrick, MIA",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "QB",
+    "espnRankPos": 35,
+    "espnRankOverall": "(310)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "36. (315)",
+    "playerId": "Jalen Hurts, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 36,
+    "espnRankOverall": "(315)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "37. (316)",
+    "playerId": "Jarrett Stidham, NE",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 37,
+    "espnRankOverall": "(316)",
+    "team": "NE"
+  },
+  {
+    "espnId": "38. (317)",
+    "playerId": "Marcus Mariota, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 38,
+    "espnRankOverall": "(317)",
+    "team": "LV"
+  },
+  {
+    "espnId": "39. (318)",
+    "playerId": "Jameis Winston, NO",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 39,
+    "espnRankOverall": "(318)",
+    "team": "NO"
+  },
+  {
+    "espnId": "40. (319)",
+    "playerId": "Case Keenum, CLE",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 40,
+    "espnRankOverall": "(319)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "41. (103)",
+    "playerId": "James White, NE",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "QB",
+    "espnRankPos": 41,
+    "espnRankOverall": "(103)",
+    "team": "NE"
+  },
+  {
+    "espnId": "42. (104)",
+    "playerId": "Darrell Henderson Jr., LAR",
+    "auction": "$2",
+    "bye": 9,
+    "pos": "QB",
+    "espnRankPos": 42,
+    "espnRankOverall": "(104)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "1. (181)",
+    "playerId": "Justin Tucker, BAL",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "K",
+    "espnRankPos": 1,
+    "espnRankOverall": "(181)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "2. (182)",
+    "playerId": "Harrison Butker, KC",
+    "auction": "$1",
+    "bye": 10,
+    "pos": "K",
+    "espnRankPos": 2,
+    "espnRankOverall": "(182)",
+    "team": "KC"
+  },
+  {
+    "espnId": "3. (183)",
+    "playerId": "Wil Lutz, NO",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "K",
+    "espnRankPos": 3,
+    "espnRankOverall": "(183)",
+    "team": "NO"
+  },
+  {
+    "espnId": "4. (184)",
+    "playerId": "Matt Prater, DET",
+    "auction": "$1",
+    "bye": 5,
+    "pos": "K",
+    "espnRankPos": 4,
+    "espnRankOverall": "(184)",
+    "team": "DET"
+  },
+  {
+    "espnId": "5. (185)",
+    "playerId": "Chris Boswell, PIT",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "K",
+    "espnRankPos": 5,
+    "espnRankOverall": "(185)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "6. (186)",
+    "playerId": "Greg Zuerlein, DAL",
+    "auction": "$1",
+    "bye": 10,
+    "pos": "K",
+    "espnRankPos": 6,
+    "espnRankOverall": "(186)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "7. (187)",
+    "playerId": "Robbie Gould, SF",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "K",
+    "espnRankPos": 7,
+    "espnRankOverall": "(187)",
+    "team": "SF"
+  },
+  {
+    "espnId": "8. (188)",
+    "playerId": "Zane Gonzalez, ARI",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "K",
+    "espnRankPos": 8,
+    "espnRankOverall": "(188)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "9. (189)",
+    "playerId": "Jake Elliott, PHI",
+    "auction": "$1",
+    "bye": 9,
+    "pos": "K",
+    "espnRankPos": 9,
+    "espnRankOverall": "(189)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "10. (190)",
+    "playerId": "Austin Seibert, CLE",
+    "auction": "$1",
+    "bye": 9,
+    "pos": "K",
+    "espnRankPos": 10,
+    "espnRankOverall": "(190)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "11. (191)",
+    "playerId": "Chase McLaughlin, IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "K",
+    "espnRankPos": 11,
+    "espnRankOverall": "(191)",
+    "team": "IND"
+  },
+  {
+    "espnId": "12. (192)",
+    "playerId": "Ka'imi Fairbairn, HOU",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "K",
+    "espnRankPos": 12,
+    "espnRankOverall": "(192)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "13. (223)",
+    "playerId": "Brandon McManus, DEN",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "K",
+    "espnRankPos": 13,
+    "espnRankOverall": "(223)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "14. (224)",
+    "playerId": "Younghoe Koo, ATL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "K",
+    "espnRankPos": 14,
+    "espnRankOverall": "(224)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "15. (255)",
+    "playerId": "Sam Sloman, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "K",
+    "espnRankPos": 15,
+    "espnRankOverall": "(255)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "1. (169)",
+    "playerId": "Steelers D/ST (Wk 1: @NYG)",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "D/ST",
+    "espnRankPos": 1,
+    "espnRankOverall": "(169)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "2. (170)",
+    "playerId": "Bills D/ST (Wk 1: NYJ)",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "D/ST",
+    "espnRankPos": 2,
+    "espnRankOverall": "(170)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "3. (171)",
+    "playerId": "49ers D/ST (Wk 1: ARI)",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "D/ST",
+    "espnRankPos": 3,
+    "espnRankOverall": "(171)",
+    "team": "SF"
+  },
+  {
+    "espnId": "4. (172)",
+    "playerId": "Ravens D/ST (Wk 1: CLE)",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "D/ST",
+    "espnRankPos": 4,
+    "espnRankOverall": "(172)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "5. (173)",
+    "playerId": "Patriots D/ST (Wk 1: MIA)",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "D/ST",
+    "espnRankPos": 5,
+    "espnRankOverall": "(173)",
+    "team": "NE"
+  },
+  {
+    "espnId": "6. (174)",
+    "playerId": "Colts D/ST (Wk 1: @JAC)",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "D/ST",
+    "espnRankPos": 6,
+    "espnRankOverall": "(174)",
+    "team": "IND"
+  },
+  {
+    "espnId": "7. (175)",
+    "playerId": "Broncos D/ST (Wk 1: TEN)",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "D/ST",
+    "espnRankPos": 7,
+    "espnRankOverall": "(175)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "8. (176)",
+    "playerId": "Bears D/ST (Wk 1: @DET)",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "D/ST",
+    "espnRankPos": 8,
+    "espnRankOverall": "(176)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "9. (177)",
+    "playerId": "Saints D/ST (Wk 1: TB)",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "D/ST",
+    "espnRankPos": 9,
+    "espnRankOverall": "(177)",
+    "team": "NO"
+  },
+  {
+    "espnId": "10. (178)",
+    "playerId": "Vikings D/ST (Wk 1: GB)",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "D/ST",
+    "espnRankPos": 10,
+    "espnRankOverall": "(178)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "11. (179)",
+    "playerId": "Buccaneers D/ST (Wk 1: @NO)",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "D/ST",
+    "espnRankPos": 11,
+    "espnRankOverall": "(179)",
+    "team": "TB"
+  },
+  {
+    "espnId": "12. (180)",
+    "playerId": "Chargers D/ST (Wk 1: @CIN)",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "D/ST",
+    "espnRankPos": 12,
+    "espnRankOverall": "(180)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "13. (221)",
+    "playerId": "Cowboys D/ST (Wk 1: @LAR)",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "D/ST",
+    "espnRankPos": 13,
+    "espnRankOverall": "(221)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "14. (222)",
+    "playerId": "Seahawks D/ST (Wk 1: @ATL)",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "D/ST",
+    "espnRankPos": 14,
+    "espnRankOverall": "(222)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "15. (253)",
+    "playerId": "Bengals D/ST (Wk 1: LAC)",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "D/ST",
+    "espnRankPos": 15,
+    "espnRankOverall": "(253)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "1. (6)",
+    "playerId": "Michael Thomas, NO",
+    "auction": "$51",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 1,
+    "espnRankOverall": "(6)",
+    "team": "NO"
+  },
+  {
+    "espnId": "2. (16)",
+    "playerId": "Davante Adams, GB",
+    "auction": "$40",
+    "bye": 5,
+    "pos": "WR",
+    "espnRankPos": 2,
+    "espnRankOverall": "(16)",
+    "team": "GB"
+  },
+  {
+    "espnId": "3. (17)",
+    "playerId": "DeAndre Hopkins, ARI",
+    "auction": "$37",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 3,
+    "espnRankOverall": "(17)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "4. (18)",
+    "playerId": "Tyreek Hill, KC",
+    "auction": "$36",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 4,
+    "espnRankOverall": "(18)",
+    "team": "KC"
+  },
+  {
+    "espnId": "5. (19)",
+    "playerId": "Julio Jones, ATL",
+    "auction": "$36",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 5,
+    "espnRankOverall": "(19)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "6. (21)",
+    "playerId": "Chris Godwin, TB",
+    "auction": "$35",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 6,
+    "espnRankOverall": "(21)",
+    "team": "TB"
+  },
+  {
+    "espnId": "7. (22)",
+    "playerId": "Mike Evans, TB",
+    "auction": "$33",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 7,
+    "espnRankOverall": "(22)",
+    "team": "TB"
+  },
+  {
+    "espnId": "8. (24)",
+    "playerId": "Kenny Golladay, DET",
+    "auction": "$32",
+    "bye": 5,
+    "pos": "WR",
+    "espnRankPos": 8,
+    "espnRankOverall": "(24)",
+    "team": "DET"
+  },
+  {
+    "espnId": "9. (25)",
+    "playerId": "DJ Moore, CAR",
+    "auction": "$31",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 9,
+    "espnRankOverall": "(25)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "10. (26)",
+    "playerId": "Allen Robinson II, CHI",
+    "auction": "$30",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 10,
+    "espnRankOverall": "(26)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "11. (27)",
+    "playerId": "Adam Thielen, MIN",
+    "auction": "$30",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 11,
+    "espnRankOverall": "(27)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "12. (28)",
+    "playerId": "Amari Cooper, DAL",
+    "auction": "$29",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 12,
+    "espnRankOverall": "(28)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "13. (29)",
+    "playerId": "JuJu Smith-Schuster, PIT",
+    "auction": "$28",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 13,
+    "espnRankOverall": "(29)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "14. (30)",
+    "playerId": "Courtland Sutton, DEN",
+    "auction": "$26",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 14,
+    "espnRankOverall": "(30)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "15. (31)",
+    "playerId": "Odell Beckham Jr., CLE",
+    "auction": "$26",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 15,
+    "espnRankOverall": "(31)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "16. (32)",
+    "playerId": "A.J. Brown, TEN",
+    "auction": "$25",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 16,
+    "espnRankOverall": "(32)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "17. (33)",
+    "playerId": "Calvin Ridley, ATL",
+    "auction": "$24",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 17,
+    "espnRankOverall": "(33)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "18. (36)",
+    "playerId": "Tyler Lockett, SEA",
+    "auction": "$22",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 18,
+    "espnRankOverall": "(36)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "19. (37)",
+    "playerId": "Robert Woods, LAR",
+    "auction": "$22",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 19,
+    "espnRankOverall": "(37)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "20. (38)",
+    "playerId": "Cooper Kupp, LAR",
+    "auction": "$21",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 20,
+    "espnRankOverall": "(38)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "21. (50)",
+    "playerId": "T.Y. Hilton, IND",
+    "auction": "$13",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 21,
+    "espnRankOverall": "(50)",
+    "team": "IND"
+  },
+  {
+    "espnId": "22. (51)",
+    "playerId": "Terry McLaurin, WAS",
+    "auction": "$12",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 22,
+    "espnRankOverall": "(51)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "23. (52)",
+    "playerId": "Keenan Allen, LAC",
+    "auction": "$11",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 23,
+    "espnRankOverall": "(52)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "24. (53)",
+    "playerId": "DK Metcalf, SEA",
+    "auction": "$11",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 24,
+    "espnRankOverall": "(53)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "25. (54)",
+    "playerId": "Jarvis Landry, CLE",
+    "auction": "$10",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 25,
+    "espnRankOverall": "(54)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "26. (55)",
+    "playerId": "DJ Chark Jr., JAC",
+    "auction": "$10",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 26,
+    "espnRankOverall": "(55)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "27. (61)",
+    "playerId": "DeVante Parker, MIA",
+    "auction": "$8",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 27,
+    "espnRankOverall": "(61)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "28. (62)",
+    "playerId": "Stefon Diggs, BUF",
+    "auction": "$8",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 28,
+    "espnRankOverall": "(62)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "29. (63)",
+    "playerId": "A.J. Green, CIN",
+    "auction": "$8",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 29,
+    "espnRankOverall": "(63)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "30. (64)",
+    "playerId": "Michael Gallup, DAL",
+    "auction": "$7",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 30,
+    "espnRankOverall": "(64)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "31. (65)",
+    "playerId": "Tyler Boyd, CIN",
+    "auction": "$7",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 31,
+    "espnRankOverall": "(65)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "32. (66)",
+    "playerId": "Will Fuller V, HOU",
+    "auction": "$7",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 32,
+    "espnRankOverall": "(66)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "33. (67)",
+    "playerId": "Marquise Brown, BAL",
+    "auction": "$7",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 33,
+    "espnRankOverall": "(67)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "34. (68)",
+    "playerId": "Deebo Samuel, SF",
+    "auction": "$6",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 34,
+    "espnRankOverall": "(68)",
+    "team": "SF"
+  },
+  {
+    "espnId": "35. (77)",
+    "playerId": "Marvin Jones Jr., DET",
+    "auction": "$5",
+    "bye": 5,
+    "pos": "WR",
+    "espnRankPos": 35,
+    "espnRankOverall": "(77)",
+    "team": "DET"
+  },
+  {
+    "espnId": "36. (78)",
+    "playerId": "Julian Edelman, NE",
+    "auction": "$4",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 36,
+    "espnRankOverall": "(78)",
+    "team": "NE"
+  },
+  {
+    "espnId": "37. (79)",
+    "playerId": "Brandin Cooks, HOU",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 37,
+    "espnRankOverall": "(79)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "38. (80)",
+    "playerId": "Diontae Johnson, PIT",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 38,
+    "espnRankOverall": "(80)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "39. (81)",
+    "playerId": "Sterling Shepard, NYG",
+    "auction": "$4",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 39,
+    "espnRankOverall": "(81)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "40. (84)",
+    "playerId": "Christian Kirk, ARI",
+    "auction": "$4",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 40,
+    "espnRankOverall": "(84)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "41. (94)",
+    "playerId": "Jamison Crowder, NYJ",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 41,
+    "espnRankOverall": "(94)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "42. (95)",
+    "playerId": "Preston Williams, MIA",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 42,
+    "espnRankOverall": "(95)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "43. (96)",
+    "playerId": "Robby Anderson, CAR",
+    "auction": "$2",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 43,
+    "espnRankOverall": "(96)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "44. (97)",
+    "playerId": "Golden Tate, NYG",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 44,
+    "espnRankOverall": "(97)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "45. (98)",
+    "playerId": "Darius Slayton, NYG",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 45,
+    "espnRankOverall": "(98)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "46. (99)",
+    "playerId": "John Brown, BUF",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 46,
+    "espnRankOverall": "(99)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "47. (100)",
+    "playerId": "Emmanuel Sanders, NO",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 47,
+    "espnRankOverall": "(100)",
+    "team": "NO"
+  },
+  {
+    "espnId": "48. (101)",
+    "playerId": "Mecole Hardman, KC",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 48,
+    "espnRankOverall": "(101)",
+    "team": "KC"
+  },
+  {
+    "espnId": "49. (102)",
+    "playerId": "Henry Ruggs III, LV",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 49,
+    "espnRankOverall": "(102)",
+    "team": "LV"
+  },
+  {
+    "espnId": "50. (106)",
+    "playerId": "DeSean Jackson, PHI",
+    "auction": "$2",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 50,
+    "espnRankOverall": "(106)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "51. (107)",
+    "playerId": "Breshad Perriman, NYJ",
+    "auction": "$2",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 51,
+    "espnRankOverall": "(107)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "52. (108)",
+    "playerId": "Jerry Jeudy, DEN",
+    "auction": "$2",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 52,
+    "espnRankOverall": "(108)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "53. (109)",
+    "playerId": "Mike Williams, LAC",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 53,
+    "espnRankOverall": "(109)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "54. (123)",
+    "playerId": "Curtis Samuel, CAR",
+    "auction": "$1",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 54,
+    "espnRankOverall": "(123)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "55. (124)",
+    "playerId": "CeeDee Lamb, DAL",
+    "auction": "$1",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 55,
+    "espnRankOverall": "(124)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "56. (125)",
+    "playerId": "N'Keal Harry, NE",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 56,
+    "espnRankOverall": "(125)",
+    "team": "NE"
+  },
+  {
+    "espnId": "57. (126)",
+    "playerId": "Anthony Miller, CHI",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 57,
+    "espnRankOverall": "(126)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "58. (127)",
+    "playerId": "Parris Campbell, IND",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 58,
+    "espnRankOverall": "(127)",
+    "team": "IND"
+  },
+  {
+    "espnId": "59. (144)",
+    "playerId": "Justin Jefferson, MIN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 59,
+    "espnRankOverall": "(144)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "60. (145)",
+    "playerId": "Brandon Aiyuk, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 60,
+    "espnRankOverall": "(145)",
+    "team": "SF"
+  },
+  {
+    "espnId": "61. (146)",
+    "playerId": "Sammy Watkins, KC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 61,
+    "espnRankOverall": "(146)",
+    "team": "KC"
+  },
+  {
+    "espnId": "62. (147)",
+    "playerId": "Randall Cobb, HOU",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 62,
+    "espnRankOverall": "(147)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "63. (148)",
+    "playerId": "Alshon Jeffery, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 63,
+    "espnRankOverall": "(148)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "64. (149)",
+    "playerId": "Allen Lazard, GB",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "WR",
+    "espnRankPos": 64,
+    "espnRankOverall": "(149)",
+    "team": "GB"
+  },
+  {
+    "espnId": "65. (150)",
+    "playerId": "Michael Pittman Jr., IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 65,
+    "espnRankOverall": "(150)",
+    "team": "IND"
+  },
+  {
+    "espnId": "66. (151)",
+    "playerId": "Larry Fitzgerald, ARI",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 66,
+    "espnRankOverall": "(151)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "67. (152)",
+    "playerId": "Jalen Reagor, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 67,
+    "espnRankOverall": "(152)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "68. (153)",
+    "playerId": "Denzel Mims, NYJ",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 68,
+    "espnRankOverall": "(153)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "69. (154)",
+    "playerId": "Tee Higgins, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 69,
+    "espnRankOverall": "(154)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "70. (194)",
+    "playerId": "Chase Claypool, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 70,
+    "espnRankOverall": "(194)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "71. (195)",
+    "playerId": "Van Jefferson, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 71,
+    "espnRankOverall": "(195)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "72. (196)",
+    "playerId": "James Washington, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 72,
+    "espnRankOverall": "(196)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "73. (197)",
+    "playerId": "Laviska Shenault Jr., JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 73,
+    "espnRankOverall": "(197)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "74. (198)",
+    "playerId": "Russell Gage, ATL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "WR",
+    "espnRankPos": 74,
+    "espnRankOverall": "(198)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "75. (213)",
+    "playerId": "Steven Sims Jr., WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 75,
+    "espnRankOverall": "(213)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "76. (214)",
+    "playerId": "Corey Davis, TEN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 76,
+    "espnRankOverall": "(214)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "77. (215)",
+    "playerId": "Cole Beasley, BUF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 77,
+    "espnRankOverall": "(215)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "78. (216)",
+    "playerId": "Josh Reynolds, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 78,
+    "espnRankOverall": "(216)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "79. (217)",
+    "playerId": "Antonio Brown, FA",
+    "auction": "$0",
+    "bye": 0,
+    "pos": "WR",
+    "espnRankPos": 79,
+    "espnRankOverall": "(217)",
+    "team": "FA"
+  },
+  {
+    "espnId": "80. (218)",
+    "playerId": "Danny Amendola, DET",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "WR",
+    "espnRankPos": 80,
+    "espnRankOverall": "(218)",
+    "team": "DET"
+  },
+  {
+    "espnId": "81. (225)",
+    "playerId": "Bryan Edwards, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 81,
+    "espnRankOverall": "(225)",
+    "team": "LV"
+  },
+  {
+    "espnId": "82. (226)",
+    "playerId": "Dede Westbrook, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 82,
+    "espnRankOverall": "(226)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "83. (227)",
+    "playerId": "Scotty Miller, TB",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "WR",
+    "espnRankPos": 83,
+    "espnRankOverall": "(227)",
+    "team": "TB"
+  },
+  {
+    "espnId": "84. (228)",
+    "playerId": "Hunter Renfrow, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "WR",
+    "espnRankPos": 84,
+    "espnRankOverall": "(228)",
+    "team": "LV"
+  },
+  {
+    "espnId": "85. (229)",
+    "playerId": "Trent Taylor, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 85,
+    "espnRankOverall": "(229)",
+    "team": "SF"
+  },
+  {
+    "espnId": "86. (230)",
+    "playerId": "Chris Conley, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "WR",
+    "espnRankPos": 86,
+    "espnRankOverall": "(230)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "87. (231)",
+    "playerId": "Devin Duvernay, BAL",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 87,
+    "espnRankOverall": "(231)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "88. (232)",
+    "playerId": "Jakeem Grant, MIA",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "WR",
+    "espnRankPos": 88,
+    "espnRankOverall": "(232)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "89. (233)",
+    "playerId": "Antonio Gandy-Golden, WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "WR",
+    "espnRankPos": 89,
+    "espnRankOverall": "(233)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "90. (234)",
+    "playerId": "John Ross III, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "WR",
+    "espnRankPos": 90,
+    "espnRankOverall": "(234)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "1. (1)",
+    "playerId": "Christian McCaffrey, CAR",
+    "auction": "$63",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 1,
+    "espnRankOverall": "(1)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "2. (2)",
+    "playerId": "Saquon Barkley, NYG",
+    "auction": "$60",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 2,
+    "espnRankOverall": "(2)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "3. (3)",
+    "playerId": "Ezekiel Elliott, DAL",
+    "auction": "$60",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 3,
+    "espnRankOverall": "(3)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "4. (4)",
+    "playerId": "Dalvin Cook, MIN",
+    "auction": "$59",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 4,
+    "espnRankOverall": "(4)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "5. (5)",
+    "playerId": "Alvin Kamara, NO",
+    "auction": "$56",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 5,
+    "espnRankOverall": "(5)",
+    "team": "NO"
+  },
+  {
+    "espnId": "6. (7)",
+    "playerId": "Derrick Henry, TEN",
+    "auction": "$50",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 6,
+    "espnRankOverall": "(7)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "7. (8)",
+    "playerId": "Miles Sanders, PHI",
+    "auction": "$49",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 7,
+    "espnRankOverall": "(8)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "8. (9)",
+    "playerId": "Clyde Edwards-Helaire, KC",
+    "auction": "$48",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 8,
+    "espnRankOverall": "(9)",
+    "team": "KC"
+  },
+  {
+    "espnId": "9. (10)",
+    "playerId": "Josh Jacobs, LV",
+    "auction": "$46",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 9,
+    "espnRankOverall": "(10)",
+    "team": "LV"
+  },
+  {
+    "espnId": "10. (11)",
+    "playerId": "Nick Chubb, CLE",
+    "auction": "$45",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 10,
+    "espnRankOverall": "(11)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "11. (12)",
+    "playerId": "Kenyan Drake, ARI",
+    "auction": "$45",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 11,
+    "espnRankOverall": "(12)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "12. (13)",
+    "playerId": "Aaron Jones, GB",
+    "auction": "$44",
+    "bye": 5,
+    "pos": "RB",
+    "espnRankPos": 12,
+    "espnRankOverall": "(13)",
+    "team": "GB"
+  },
+  {
+    "espnId": "13. (14)",
+    "playerId": "Joe Mixon, CIN",
+    "auction": "$43",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 13,
+    "espnRankOverall": "(14)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "14. (15)",
+    "playerId": "Austin Ekeler, LAC",
+    "auction": "$43",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 14,
+    "espnRankOverall": "(15)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "15. (39)",
+    "playerId": "Chris Carson, SEA",
+    "auction": "$21",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 15,
+    "espnRankOverall": "(39)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "16. (40)",
+    "playerId": "David Johnson, HOU",
+    "auction": "$20",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 16,
+    "espnRankOverall": "(40)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "17. (43)",
+    "playerId": "Todd Gurley II, ATL",
+    "auction": "$18",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 17,
+    "espnRankOverall": "(43)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "18. (44)",
+    "playerId": "Melvin Gordon, DEN",
+    "auction": "$17",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 18,
+    "espnRankOverall": "(44)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "19. (45)",
+    "playerId": "James Conner, PIT",
+    "auction": "$17",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 19,
+    "espnRankOverall": "(45)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "20. (46)",
+    "playerId": "Jonathan Taylor, IND",
+    "auction": "$15",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 20,
+    "espnRankOverall": "(46)",
+    "team": "IND"
+  },
+  {
+    "espnId": "21. (47)",
+    "playerId": "Cam Akers, LAR",
+    "auction": "$15",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 21,
+    "espnRankOverall": "(47)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "22. (48)",
+    "playerId": "Le'Veon Bell, NYJ",
+    "auction": "$14",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 22,
+    "espnRankOverall": "(48)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "23. (49)",
+    "playerId": "Devin Singletary, BUF",
+    "auction": "$13",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 23,
+    "espnRankOverall": "(49)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "24. (56)",
+    "playerId": "David Montgomery, CHI",
+    "auction": "$10",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 24,
+    "espnRankOverall": "(56)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "25. (57)",
+    "playerId": "Raheem Mostert, SF",
+    "auction": "$10",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 25,
+    "espnRankOverall": "(57)",
+    "team": "SF"
+  },
+  {
+    "espnId": "26. (58)",
+    "playerId": "D'Andre Swift, DET",
+    "auction": "$9",
+    "bye": 5,
+    "pos": "RB",
+    "espnRankPos": 26,
+    "espnRankOverall": "(58)",
+    "team": "DET"
+  },
+  {
+    "espnId": "27. (59)",
+    "playerId": "Mark Ingram II, BAL",
+    "auction": "$9",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 27,
+    "espnRankOverall": "(59)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "28. (60)",
+    "playerId": "Kareem Hunt, CLE",
+    "auction": "$9",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 28,
+    "espnRankOverall": "(60)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "29. (70)",
+    "playerId": "Antonio Gibson, WAS",
+    "auction": "$6",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 29,
+    "espnRankOverall": "(70)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "30. (71)",
+    "playerId": "Kerryon Johnson, DET",
+    "auction": "$6",
+    "bye": 5,
+    "pos": "RB",
+    "espnRankPos": 30,
+    "espnRankOverall": "(71)",
+    "team": "DET"
+  },
+  {
+    "espnId": "31. (72)",
+    "playerId": "Phillip Lindsay, DEN",
+    "auction": "$6",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 31,
+    "espnRankOverall": "(72)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "32. (85)",
+    "playerId": "Ronald Jones II, TB",
+    "auction": "$4",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 32,
+    "espnRankOverall": "(85)",
+    "team": "TB"
+  },
+  {
+    "espnId": "33. (86)",
+    "playerId": "Leonard Fournette, TB",
+    "auction": "$4",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 33,
+    "espnRankOverall": "(86)",
+    "team": "TB"
+  },
+  {
+    "espnId": "34. (87)",
+    "playerId": "Jordan Howard, MIA",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 34,
+    "espnRankOverall": "(87)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "35. (88)",
+    "playerId": "Tarik Cohen, CHI",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 35,
+    "espnRankOverall": "(88)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "36. (89)",
+    "playerId": "J.K. Dobbins, BAL",
+    "auction": "$3",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 36,
+    "espnRankOverall": "(89)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "37. (90)",
+    "playerId": "Zack Moss, BUF",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 37,
+    "espnRankOverall": "(90)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "38. (91)",
+    "playerId": "Alexander Mattison, MIN",
+    "auction": "$3",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 38,
+    "espnRankOverall": "(91)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "39. (92)",
+    "playerId": "Matt Breida, MIA",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 39,
+    "espnRankOverall": "(92)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "40. (93)",
+    "playerId": "Tevin Coleman, SF",
+    "auction": "$3",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 40,
+    "espnRankOverall": "(93)",
+    "team": "SF"
+  },
+  {
+    "espnId": "31. (65)",
+    "playerId": "Tyler Boyd, CIN",
+    "auction": "$7",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 31,
+    "espnRankOverall": "(65)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "32. (66)",
+    "playerId": "Will Fuller V, HOU",
+    "auction": "$7",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 32,
+    "espnRankOverall": "(66)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "43. (105)",
+    "playerId": "Latavius Murray, NO",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 43,
+    "espnRankOverall": "(105)",
+    "team": "NO"
+  },
+  {
+    "espnId": "44. (128)",
+    "playerId": "Marlon Mack, IND",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 44,
+    "espnRankOverall": "(128)",
+    "team": "IND"
+  },
+  {
+    "espnId": "45. (129)",
+    "playerId": "Tony Pollard, DAL",
+    "auction": "$1",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 45,
+    "espnRankOverall": "(129)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "46. (130)",
+    "playerId": "Sony Michel, NE",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 46,
+    "espnRankOverall": "(130)",
+    "team": "NE"
+  },
+  {
+    "espnId": "47. (131)",
+    "playerId": "Devine Ozigbo, JAC",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 47,
+    "espnRankOverall": "(131)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "48. (132)",
+    "playerId": "Ryquell Armstead, JAC",
+    "auction": "$1",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 48,
+    "espnRankOverall": "(132)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "49. (133)",
+    "playerId": "Damien Harris, NE",
+    "auction": "$1",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 49,
+    "espnRankOverall": "(133)",
+    "team": "NE"
+  },
+  {
+    "espnId": "50. (139)",
+    "playerId": "Duke Johnson, HOU",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 50,
+    "espnRankOverall": "(139)",
+    "team": "HOU"
+  },
+  {
+    "espnId": "51. (140)",
+    "playerId": "Chase Edmonds, ARI",
+    "auction": "$1",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 51,
+    "espnRankOverall": "(140)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "52. (141)",
+    "playerId": "Chris Thompson, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 52,
+    "espnRankOverall": "(141)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "53. (142)",
+    "playerId": "Nyheim Hines, IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 53,
+    "espnRankOverall": "(142)",
+    "team": "IND"
+  },
+  {
+    "espnId": "54. (143)",
+    "playerId": "Justin Jackson, LAC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 54,
+    "espnRankOverall": "(143)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "55. (155)",
+    "playerId": "Boston Scott, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 55,
+    "espnRankOverall": "(155)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "56. (156)",
+    "playerId": "AJ Dillon, GB",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "RB",
+    "espnRankPos": 56,
+    "espnRankOverall": "(156)",
+    "team": "GB"
+  },
+  {
+    "espnId": "57. (157)",
+    "playerId": "Joshua Kelley, LAC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 57,
+    "espnRankOverall": "(157)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "58. (158)",
+    "playerId": "Benny Snell Jr., PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 58,
+    "espnRankOverall": "(158)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "59. (159)",
+    "playerId": "Jerick McKinnon, SF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 59,
+    "espnRankOverall": "(159)",
+    "team": "SF"
+  },
+  {
+    "espnId": "60. (160)",
+    "playerId": "Carlos Hyde, SEA",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 60,
+    "espnRankOverall": "(160)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "61. (199)",
+    "playerId": "Darrynton Evans, TEN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "RB",
+    "espnRankPos": 61,
+    "espnRankOverall": "(199)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "62. (200)",
+    "playerId": "Darrel Williams, KC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 62,
+    "espnRankOverall": "(200)",
+    "team": "KC"
+  },
+  {
+    "espnId": "63. (201)",
+    "playerId": "Anthony McFarland Jr., PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 63,
+    "espnRankOverall": "(201)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "64. (202)",
+    "playerId": "Jamaal Williams, GB",
+    "auction": "$0",
+    "bye": 5,
+    "pos": "RB",
+    "espnRankPos": 64,
+    "espnRankOverall": "(202)",
+    "team": "GB"
+  },
+  {
+    "espnId": "65. (203)",
+    "playerId": "Lynn Bowden Jr., LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 65,
+    "espnRankOverall": "(203)",
+    "team": "LV"
+  },
+  {
+    "espnId": "66. (204)",
+    "playerId": "Lamar Miller, NE",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 66,
+    "espnRankOverall": "(204)",
+    "team": "NE"
+  },
+  {
+    "espnId": "67. (205)",
+    "playerId": "LeSean McCoy, TB",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 67,
+    "espnRankOverall": "(205)",
+    "team": "TB"
+  },
+  {
+    "espnId": "68. (206)",
+    "playerId": "Giovani Bernard, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 68,
+    "espnRankOverall": "(206)",
+    "team": "CIN"
+  },
+  {
+    "espnId": "69. (207)",
+    "playerId": "Ito Smith, ATL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 69,
+    "espnRankOverall": "(207)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "70. (208)",
+    "playerId": "Bryce Love, WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 70,
+    "espnRankOverall": "(208)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "71. (209)",
+    "playerId": "Gus Edwards, BAL",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 71,
+    "espnRankOverall": "(209)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "72. (235)",
+    "playerId": "Brian Hill, ATL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 72,
+    "espnRankOverall": "(235)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "73. (236)",
+    "playerId": "Rashaad Penny, SEA",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 73,
+    "espnRankOverall": "(236)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "74. (237)",
+    "playerId": "Malcolm Brown, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "RB",
+    "espnRankPos": 74,
+    "espnRankOverall": "(237)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "75. (238)",
+    "playerId": "La'Mical Perine, NYJ",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 75,
+    "espnRankOverall": "(238)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "76. (239)",
+    "playerId": "DeAndre Washington, KC",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "RB",
+    "espnRankPos": 76,
+    "espnRankOverall": "(239)",
+    "team": "KC"
+  },
+  {
+    "espnId": "77. (240)",
+    "playerId": "Ke'Shawn Vaughn, TB",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 77,
+    "espnRankOverall": "(240)",
+    "team": "TB"
+  },
+  {
+    "espnId": "78. (241)",
+    "playerId": "Jaylen Samuels, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 78,
+    "espnRankOverall": "(241)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "79. (242)",
+    "playerId": "Frank Gore, NYJ",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 79,
+    "espnRankOverall": "(242)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "80. (250)",
+    "playerId": "Rex Burkhead, NE",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 80,
+    "espnRankOverall": "(250)",
+    "team": "NE"
+  },
+  {
+    "espnId": "81. (264)",
+    "playerId": "Jalen Richard, LV",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "RB",
+    "espnRankPos": 81,
+    "espnRankOverall": "(264)",
+    "team": "LV"
+  },
+  {
+    "espnId": "82. (265)",
+    "playerId": "Dion Lewis, NYG",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 82,
+    "espnRankOverall": "(265)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "83. (276)",
+    "playerId": "Wayne Gallman, NYG",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "RB",
+    "espnRankPos": 83,
+    "espnRankOverall": "(276)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "84. (277)",
+    "playerId": "Mike Davis, CAR",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "RB",
+    "espnRankPos": 84,
+    "espnRankOverall": "(277)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "85. (278)",
+    "playerId": "J.D. McKissic, WAS",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "RB",
+    "espnRankPos": 85,
+    "espnRankOverall": "(278)",
+    "team": "WAS"
+  },
+  {
+    "espnId": "1. (20)",
+    "playerId": "Travis Kelce, KC",
+    "auction": "$35",
+    "bye": 10,
+    "pos": "TE",
+    "espnRankPos": 1,
+    "espnRankOverall": "(20)",
+    "team": "KC"
+  },
+  {
+    "espnId": "2. (23)",
+    "playerId": "George Kittle, SF",
+    "auction": "$32",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 2,
+    "espnRankOverall": "(23)",
+    "team": "SF"
+  },
+  {
+    "espnId": "3. (41)",
+    "playerId": "Mark Andrews, BAL",
+    "auction": "$19",
+    "bye": 8,
+    "pos": "TE",
+    "espnRankPos": 3,
+    "espnRankOverall": "(41)",
+    "team": "BAL"
+  },
+  {
+    "espnId": "4. (42)",
+    "playerId": "Zach Ertz, PHI",
+    "auction": "$19",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 4,
+    "espnRankOverall": "(42)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "5. (69)",
+    "playerId": "Darren Waller, LV",
+    "auction": "$6",
+    "bye": 6,
+    "pos": "TE",
+    "espnRankPos": 5,
+    "espnRankOverall": "(69)",
+    "team": "LV"
+  },
+  {
+    "espnId": "6. (82)",
+    "playerId": "Evan Engram, NYG",
+    "auction": "$4",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 6,
+    "espnRankOverall": "(82)",
+    "team": "NYG"
+  },
+  {
+    "espnId": "7. (83)",
+    "playerId": "Tyler Higbee, LAR",
+    "auction": "$4",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 7,
+    "espnRankOverall": "(83)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "8. (110)",
+    "playerId": "Hunter Henry, LAC",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "TE",
+    "espnRankPos": 8,
+    "espnRankOverall": "(110)",
+    "team": "LAC"
+  },
+  {
+    "espnId": "9. (111)",
+    "playerId": "Jared Cook, NO",
+    "auction": "$2",
+    "bye": 6,
+    "pos": "TE",
+    "espnRankPos": 9,
+    "espnRankOverall": "(111)",
+    "team": "NO"
+  },
+  {
+    "espnId": "10. (112)",
+    "playerId": "Rob Gronkowski, TB",
+    "auction": "$2",
+    "bye": 13,
+    "pos": "TE",
+    "espnRankPos": 10,
+    "espnRankOverall": "(112)",
+    "team": "TB"
+  },
+  {
+    "espnId": "11. (113)",
+    "playerId": "Noah Fant, DEN",
+    "auction": "$2",
+    "bye": 8,
+    "pos": "TE",
+    "espnRankPos": 11,
+    "espnRankOverall": "(113)",
+    "team": "DEN"
+  },
+  {
+    "espnId": "12. (114)",
+    "playerId": "Hayden Hurst, ATL",
+    "auction": "$2",
+    "bye": 10,
+    "pos": "TE",
+    "espnRankPos": 12,
+    "espnRankOverall": "(114)",
+    "team": "ATL"
+  },
+  {
+    "espnId": "13. (115)",
+    "playerId": "T.J. Hockenson, DET",
+    "auction": "$2",
+    "bye": 5,
+    "pos": "TE",
+    "espnRankPos": 13,
+    "espnRankOverall": "(115)",
+    "team": "DET"
+  },
+  {
+    "espnId": "14. (134)",
+    "playerId": "Mike Gesicki, MIA",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 14,
+    "espnRankOverall": "(134)",
+    "team": "MIA"
+  },
+  {
+    "espnId": "15. (135)",
+    "playerId": "Chris Herndon, NYJ",
+    "auction": "$1",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 15,
+    "espnRankOverall": "(135)",
+    "team": "NYJ"
+  },
+  {
+    "espnId": "16. (136)",
+    "playerId": "Austin Hooper, CLE",
+    "auction": "$1",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 16,
+    "espnRankOverall": "(136)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "17. (161)",
+    "playerId": "Jack Doyle, IND",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "TE",
+    "espnRankPos": 17,
+    "espnRankOverall": "(161)",
+    "team": "IND"
+  },
+  {
+    "espnId": "18. (162)",
+    "playerId": "Eric Ebron, PIT",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "TE",
+    "espnRankPos": 18,
+    "espnRankOverall": "(162)",
+    "team": "PIT"
+  },
+  {
+    "espnId": "19. (163)",
+    "playerId": "Jonnu Smith, TEN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "TE",
+    "espnRankPos": 19,
+    "espnRankOverall": "(163)",
+    "team": "TEN"
+  },
+  {
+    "espnId": "20. (193)",
+    "playerId": "Irv Smith Jr., MIN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "TE",
+    "espnRankPos": 20,
+    "espnRankOverall": "(193)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "21. (210)",
+    "playerId": "Dallas Goedert, PHI",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 21,
+    "espnRankOverall": "(210)",
+    "team": "PHI"
+  },
+  {
+    "espnId": "22. (211)",
+    "playerId": "Blake Jarwin, DAL",
+    "auction": "$0",
+    "bye": 10,
+    "pos": "TE",
+    "espnRankPos": 22,
+    "espnRankOverall": "(211)",
+    "team": "DAL"
+  },
+  {
+    "espnId": "23. (246)",
+    "playerId": "Tyler Eifert, JAC",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "TE",
+    "espnRankPos": 23,
+    "espnRankOverall": "(246)",
+    "team": "JAC"
+  },
+  {
+    "espnId": "24. (247)",
+    "playerId": "Jimmy Graham, CHI",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 24,
+    "espnRankOverall": "(247)",
+    "team": "CHI"
+  },
+  {
+    "espnId": "25. (248)",
+    "playerId": "Ian Thomas, CAR",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "TE",
+    "espnRankPos": 25,
+    "espnRankOverall": "(248)",
+    "team": "CAR"
+  },
+  {
+    "espnId": "26. (249)",
+    "playerId": "Dawson Knox, BUF",
+    "auction": "$0",
+    "bye": 11,
+    "pos": "TE",
+    "espnRankPos": 26,
+    "espnRankOverall": "(249)",
+    "team": "BUF"
+  },
+  {
+    "espnId": "27. (257)",
+    "playerId": "Will Dissly, SEA",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "TE",
+    "espnRankPos": 27,
+    "espnRankOverall": "(257)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "28. (258)",
+    "playerId": "Kyle Rudolph, MIN",
+    "auction": "$0",
+    "bye": 7,
+    "pos": "TE",
+    "espnRankPos": 28,
+    "espnRankOverall": "(258)",
+    "team": "MIN"
+  },
+  {
+    "espnId": "29. (259)",
+    "playerId": "Greg Olsen, SEA",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "TE",
+    "espnRankPos": 29,
+    "espnRankOverall": "(259)",
+    "team": "SEA"
+  },
+  {
+    "espnId": "30. (289)",
+    "playerId": "Dan Arnold, ARI",
+    "auction": "$0",
+    "bye": 8,
+    "pos": "TE",
+    "espnRankPos": 30,
+    "espnRankOverall": "(289)",
+    "team": "ARI"
+  },
+  {
+    "espnId": "31. (290)",
+    "playerId": "Taysom Hill, NO",
+    "auction": "$0",
+    "bye": 6,
+    "pos": "TE",
+    "espnRankPos": 31,
+    "espnRankOverall": "(290)",
+    "team": "NO"
+  },
+  {
+    "espnId": "32. (291)",
+    "playerId": "Gerald Everett, LAR",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 32,
+    "espnRankOverall": "(291)",
+    "team": "LAR"
+  },
+  {
+    "espnId": "33. (292)",
+    "playerId": "O.J. Howard, TB",
+    "auction": "$0",
+    "bye": 13,
+    "pos": "TE",
+    "espnRankPos": 33,
+    "espnRankOverall": "(292)",
+    "team": "TB"
+  },
+  {
+    "espnId": "34. (293)",
+    "playerId": "David Njoku, CLE",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 34,
+    "espnRankOverall": "(293)",
+    "team": "CLE"
+  },
+  {
+    "espnId": "35. (311)",
+    "playerId": "C.J. Uzomah, CIN",
+    "auction": "$0",
+    "bye": 9,
+    "pos": "TE",
+    "espnRankPos": 35,
+    "espnRankOverall": "(311)",
+    "team": "CIN"
+  }
+]

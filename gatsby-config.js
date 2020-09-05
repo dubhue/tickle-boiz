@@ -1,6 +1,6 @@
-require('dotenv').config({
-  path: '.env'
-})
+require("dotenv").config({
+  path: ".env",
+});
 
 module.exports = {
   siteMetadata: {
@@ -10,23 +10,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify`,
-    /* CONTENTFUL DELIVERY */
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
-    /* CONTENTFUL PREVIEW API */
-    // {
-    //   resolve: `gatsby-source-contentful`,
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
-    //     accessToken: process.env.CONTENTFUL_PREVIEW_TOKEN,
-    //     host: `preview.contentful.com`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-styled-components`,
     },
@@ -46,6 +29,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -62,4 +52,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

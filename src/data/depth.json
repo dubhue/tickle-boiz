@@ -2,1921 +2,2689 @@
   {
     "depthId": "QB1",
     "depthPlayer": "Josh Allen (119)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Josh Allen, BUF",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "BUF"
+    "depthPlayer": "",
+    "team": "BUF",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Devin Singletary (49)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Devin Singletary, BUF",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Zack Moss (92)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Zack Moss, BUF",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
-    "depthPlayer": "-",
-    "team": "BUF"
+    "depthPlayer": "",
+    "team": "BUF",
+    "playerId": "",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Stefon Diggs (64)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Stefon Diggs, BUF",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "John Brown (99)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "John Brown, BUF",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Cole Beasley (214)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Cole Beasley, BUF",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "BUF"
+    "depthPlayer": "",
+    "team": "BUF",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Dawson Knox (249)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Dawson Knox, BUF",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "BUF"
+    "depthPlayer": "",
+    "team": "BUF",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Tyler Bass (345)",
-    "team": "BUF"
+    "team": "BUF",
+    "playerId": "Tyler Bass, BUF",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Joe Burrow (219)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Joe Burrow, CIN",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "CIN"
+    "depthPlayer": "",
+    "team": "CIN",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Joe Mixon (15)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Joe Mixon, CIN",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Giovani Bernard (203)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Giovani Bernard, CIN",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Trayveon Williams (282)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Trayveon Williams, CIN",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Tyler Boyd (62)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Tyler Boyd, CIN",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "A.J. Green (63)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "A.J. Green, CIN",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Tee Higgins (154)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Tee Higgins, CIN",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "John Ross III (251)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "John Ross III, CIN",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "C.J. Uzomah (291)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "C.J. Uzomah, CIN",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "CIN"
+    "depthPlayer": "",
+    "team": "CIN",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Randy Bullock (352)",
-    "team": "CIN"
+    "team": "CIN",
+    "playerId": "Randy Bullock, CIN",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Philip Rivers (245)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Philip Rivers, IND",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Jacoby Brissett (338)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Jacoby Brissett, IND",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Jonathan Taylor (46)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Jonathan Taylor, IND",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Marlon Mack (130)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Marlon Mack, IND",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Nyheim Hines (132)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Nyheim Hines, IND",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "T.Y. Hilton (51)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "T.Y. Hilton, IND",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Parris Campbell (144)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Parris Campbell, IND",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Michael Pittman Jr. (151)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Michael Pittman Jr., IND",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "IND"
+    "depthPlayer": "",
+    "team": "IND",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jack Doyle (161)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Jack Doyle, IND",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Trey Burton (327)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Trey Burton, IND",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Chase McLaughlin (191)",
-    "team": "IND"
+    "team": "IND",
+    "playerId": "Chase McLaughlin, IND",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Drew Lock (220)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Drew Lock, DEN",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "DEN"
+    "depthPlayer": "",
+    "team": "DEN",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Melvin Gordon (44)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Melvin Gordon, DEN",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Phillip Lindsay (84)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Phillip Lindsay, DEN",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Royce Freeman (281)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Royce Freeman, DEN",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Courtland Sutton (30)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Courtland Sutton, DEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Jerry Jeudy (106)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Jerry Jeudy, DEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "KJ Hamler (284)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "KJ Hamler, DEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "DEN"
+    "depthPlayer": "",
+    "team": "DEN",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Noah Fant (112)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Noah Fant, DEN",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "DEN"
+    "depthPlayer": "",
+    "team": "DEN",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Brandon McManus (223)",
-    "team": "DEN"
+    "team": "DEN",
+    "playerId": "Brandon McManus, DEN",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Tua Tagovailoa (268)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Tua Tagovailoa, MIA",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Ryan Fitzpatrick (310)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Ryan Fitzpatrick, MIA",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Jordan Howard (88)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Jordan Howard, MIA",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Matt Breida (89)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Matt Breida, MIA",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Myles Gaskin (283)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Myles Gaskin, MIA",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "DeVante Parker (61)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "DeVante Parker, MIA",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Preston Williams (95)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Preston Williams, MIA",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Jakeem Grant (232)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Jakeem Grant, MIA",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "MIA"
+    "depthPlayer": "",
+    "team": "MIA",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Mike Gesicki (134)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Mike Gesicki, MIA",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "MIA"
+    "depthPlayer": "",
+    "team": "MIA",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Jason Sanders (355)",
-    "team": "MIA"
+    "team": "MIA",
+    "playerId": "Jason Sanders, MIA",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Baker Mayfield (167)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Baker Mayfield, CLE",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Case Keenum (319)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Case Keenum, CLE",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Nick Chubb (12)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Nick Chubb, CLE",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Kareem Hunt (56)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Kareem Hunt, CLE",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
-    "depthPlayer": "-",
-    "team": "CLE"
+    "depthPlayer": "",
+    "team": "CLE",
+    "playerId": "",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Odell Beckham Jr. (31)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Odell Beckham Jr., CLE",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Jarvis Landry (53)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Jarvis Landry, CLE",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
-    "depthPlayer": "-",
-    "team": "CLE"
+    "depthPlayer": "",
+    "team": "CLE",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "CLE"
+    "depthPlayer": "",
+    "team": "CLE",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Austin Hooper (136)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Austin Hooper, CLE",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "David Njoku (293)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "David Njoku, CLE",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Austin Seibert (190)",
-    "team": "CLE"
+    "team": "CLE",
+    "playerId": "Austin Seibert, CLE",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Gardner Minshew II (243)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Gardner Minshew II, JAC",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "JAC"
+    "depthPlayer": "",
+    "team": "JAC",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Chris Thompson (131)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Chris Thompson, JAC",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Ryquell Armstead (133)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Ryquell Armstead, JAC",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Devine Ozigbo (139)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Devine Ozigbo, JAC",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "DJ Chark Jr. (55)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "DJ Chark Jr., JAC",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Laviska Shenault Jr. (197)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Laviska Shenault Jr., JAC",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Dede Westbrook (216)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Dede Westbrook, JAC",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Chris Conley (229)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Chris Conley, JAC",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Tyler Eifert (247)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Tyler Eifert, JAC",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "James O'Shaughnessy (332)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "James O'Shaughnessy, JAC",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Josh Lambo (347)",
-    "team": "JAC"
+    "team": "JAC",
+    "playerId": "Josh Lambo, JAC",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Tyrod Taylor (270)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Tyrod Taylor, LAC",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Justin Herbert (301)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Justin Herbert, LAC",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Austin Ekeler (14)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Austin Ekeler, LAC",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Justin Jackson (143)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Justin Jackson, LAC",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Joshua Kelley (159)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Joshua Kelley, LAC",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Keenan Allen (50)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Keenan Allen, LAC",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Mike Williams (109)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Mike Williams, LAC",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
-    "depthPlayer": "-",
-    "team": "LAC"
+    "depthPlayer": "",
+    "team": "LAC",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "LAC"
+    "depthPlayer": "",
+    "team": "LAC",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Hunter Henry (110)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Hunter Henry, LAC",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "LAC"
+    "depthPlayer": "",
+    "team": "LAC",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Michael Badgley (350)",
-    "team": "LAC"
+    "team": "LAC",
+    "playerId": "Michael Badgley, LAC",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Sam Darnold (266)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Sam Darnold, NYJ",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "NYJ"
+    "depthPlayer": "",
+    "team": "NYJ",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Le'Veon Bell (47)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Le'Veon Bell, NYJ",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "La'Mical Perine (209)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "La'Mical Perine, NYJ",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Frank Gore (265)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Frank Gore, NYJ",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Jamison Crowder (81)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Jamison Crowder, NYJ",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Breshad Perriman (108)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Breshad Perriman, NYJ",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Denzel Mims (153)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Denzel Mims, NYJ",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "NYJ"
+    "depthPlayer": "",
+    "team": "NYJ",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Chris Herndon (135)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Chris Herndon, NYJ",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "NYJ"
+    "depthPlayer": "",
+    "team": "NYJ",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Sam Ficken (358)",
-    "team": "NYJ"
+    "team": "NYJ",
+    "playerId": "Sam Ficken, NYJ",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Lamar Jackson (34)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Lamar Jackson, BAL",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Robert Griffin III (339)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Robert Griffin III, BAL",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Mark Ingram II (71)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Mark Ingram II, BAL",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "J.K. Dobbins (90)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "J.K. Dobbins, BAL",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Gus Edwards (239)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Gus Edwards, BAL",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Marquise Brown (67)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Marquise Brown, BAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Devin Duvernay (231)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Devin Duvernay, BAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Miles Boykin (271)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Miles Boykin, BAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Willie Snead IV (295)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Willie Snead IV, BAL",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Mark Andrews (41)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Mark Andrews, BAL",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Nick Boyle (326)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Nick Boyle, BAL",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Justin Tucker (181)",
-    "team": "BAL"
+    "team": "BAL",
+    "playerId": "Justin Tucker, BAL",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Deshaun Watson (73)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Deshaun Watson, HOU",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "HOU"
+    "depthPlayer": "",
+    "team": "HOU",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "David Johnson (40)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "David Johnson, HOU",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Duke Johnson (129)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Duke Johnson, HOU",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
-    "depthPlayer": "-",
-    "team": "HOU"
+    "depthPlayer": "",
+    "team": "HOU",
+    "playerId": "",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Will Fuller V (66)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Will Fuller V, HOU",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Brandin Cooks (79)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Brandin Cooks, HOU",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Randall Cobb (147)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Randall Cobb, HOU",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Kenny Stills (260)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Kenny Stills, HOU",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jordan Akins (312)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Jordan Akins, HOU",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Darren Fells (313)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Darren Fells, HOU",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Ka'imi Fairbairn (192)",
-    "team": "HOU"
+    "team": "HOU",
+    "playerId": "Ka'imi Fairbairn, HOU",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Patrick Mahomes (35)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Patrick Mahomes, KC",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "KC"
+    "depthPlayer": "",
+    "team": "KC",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Clyde Edwards-Helaire (9)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Clyde Edwards-Helaire, KC",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Darrel Williams (200)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Darrel Williams, KC",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "DeAndre Washington (236)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "DeAndre Washington, KC",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Tyreek Hill (19)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Tyreek Hill, KC",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Mecole Hardman (102)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Mecole Hardman, KC",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Sammy Watkins (146)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Sammy Watkins, KC",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Demarcus Robinson (261)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Demarcus Robinson, KC",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Travis Kelce (20)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Travis Kelce, KC",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "KC"
+    "depthPlayer": "",
+    "team": "KC",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Harrison Butker (182)",
-    "team": "KC"
+    "team": "KC",
+    "playerId": "Harrison Butker, KC",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Cam Newton (164)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Cam Newton, NE",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Jarrett Stidham (316)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Jarrett Stidham, NE",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "James White (87)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "James White, NE",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Damien Harris (140)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Damien Harris, NE",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Sony Michel (141)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Sony Michel, NE",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Julian Edelman (77)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Julian Edelman, NE",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "N'Keal Harry (126)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "N'Keal Harry, NE",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Damiere Byrd (272)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Damiere Byrd, NE",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Jakobi Meyers (275)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Jakobi Meyers, NE",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Devin Asiasi (324)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Devin Asiasi, NE",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "NE"
+    "depthPlayer": "",
+    "team": "NE",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Justin Rohrwasser (356)",
-    "team": "NE"
+    "team": "NE",
+    "playerId": "Justin Rohrwasser, NE",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Ben Roethlisberger (138)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Ben Roethlisberger, PIT",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Mason Rudolph (340)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Mason Rudolph, PIT",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "James Conner (45)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "James Conner, PIT",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Benny Snell Jr. (157)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Benny Snell Jr., PIT",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Anthony McFarland Jr. (204)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Anthony McFarland Jr., PIT",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "JuJu Smith-Schuster (28)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "JuJu Smith-Schuster, PIT",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Diontae Johnson (80)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Diontae Johnson, PIT",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Chase Claypool (195)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Chase Claypool, PIT",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "James Washington (196)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "James Washington, PIT",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Eric Ebron (162)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Eric Ebron, PIT",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Vance McDonald (328)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Vance McDonald, PIT",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Chris Boswell (185)",
-    "team": "PIT"
+    "team": "PIT",
+    "playerId": "Chris Boswell, PIT",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Ryan Tannehill (165)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Ryan Tannehill, TEN",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "TEN"
+    "depthPlayer": "",
+    "team": "TEN",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Derrick Henry (7)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Derrick Henry, TEN",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Darrynton Evans (158)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Darrynton Evans, TEN",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
-    "depthPlayer": "-",
-    "team": "TEN"
+    "depthPlayer": "",
+    "team": "TEN",
+    "playerId": "",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "A.J. Brown (33)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "A.J. Brown, TEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Corey Davis (217)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Corey Davis, TEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Adam Humphries (233)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Adam Humphries, TEN",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "TEN"
+    "depthPlayer": "",
+    "team": "TEN",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jonnu Smith (210)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Jonnu Smith, TEN",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Anthony Firkser (331)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Anthony Firkser, TEN",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Stephen Gostkowski (351)",
-    "team": "TEN"
+    "team": "TEN",
+    "playerId": "Stephen Gostkowski, TEN",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Derek Carr (244)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Derek Carr, LV",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Marcus Mariota (317)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Marcus Mariota, LV",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Josh Jacobs (11)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Josh Jacobs, LV",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Lynn Bowden Jr. (205)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Lynn Bowden Jr., LV",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Jalen Richard (240)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Jalen Richard, LV",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Henry Ruggs III (101)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Henry Ruggs III, LV",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Bryan Edwards (218)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Bryan Edwards, LV",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Hunter Renfrow (226)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Hunter Renfrow, LV",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "LV"
+    "depthPlayer": "",
+    "team": "LV",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Darren Waller (69)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Darren Waller, LV",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Foster Moreau (334)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Foster Moreau, LV",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Daniel Carlson (353)",
-    "team": "LV"
+    "team": "LV",
+    "playerId": "Daniel Carlson, LV",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Dak Prescott (75)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Dak Prescott, DAL",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Andy Dalton (336)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Andy Dalton, DAL",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Ezekiel Elliott (3)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Ezekiel Elliott, DAL",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Tony Pollard (128)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Tony Pollard, DAL",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
-    "depthPlayer": "-",
-    "team": "DAL"
+    "depthPlayer": "",
+    "team": "DAL",
+    "playerId": "",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Amari Cooper (29)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Amari Cooper, DAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Michael Gallup (65)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Michael Gallup, DAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "CeeDee Lamb (124)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "CeeDee Lamb, DAL",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "DAL"
+    "depthPlayer": "",
+    "team": "DAL",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Blake Jarwin (211)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Blake Jarwin, DAL",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Dalton Schultz (333)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Dalton Schultz, DAL",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Greg Zuerlein (186)",
-    "team": "DAL"
+    "team": "DAL",
+    "playerId": "Greg Zuerlein, DAL",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Nick Foles (296)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Nick Foles, CHI",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Mitchell Trubisky (302)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Mitchell Trubisky, CHI",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "David Montgomery (58)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "David Montgomery, CHI",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Tarik Cohen (70)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Tarik Cohen, CHI",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Artavis Pierce (308)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Artavis Pierce, CHI",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Allen Robinson II (26)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Allen Robinson II, CHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Anthony Miller (125)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Anthony Miller, CHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Ted Ginn Jr. (252)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Ted Ginn Jr., CHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "CHI"
+    "depthPlayer": "",
+    "team": "CHI",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jimmy Graham (248)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Jimmy Graham, CHI",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Cole Kmet (329)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Cole Kmet, CHI",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Eddy Pineiro (357)",
-    "team": "CHI"
+    "team": "CHI",
+    "playerId": "Eddy Pineiro, CHI",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Tom Brady (117)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Tom Brady, TB",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Blaine Gabbert (344)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Blaine Gabbert, TB",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Ronald Jones II (85)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Ronald Jones II, TB",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Leonard Fournette (86)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Leonard Fournette, TB",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "LeSean McCoy (201)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "LeSean McCoy, TB",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Chris Godwin (21)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Chris Godwin, TB",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Mike Evans (22)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Mike Evans, TB",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Scotty Miller (228)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Scotty Miller, TB",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "TB"
+    "depthPlayer": "",
+    "team": "TB",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Rob Gronkowski (113)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Rob Gronkowski, TB",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "O.J. Howard (292)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "O.J. Howard, TB",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Ryan Succop (348)",
-    "team": "TB"
+    "team": "TB",
+    "playerId": "Ryan Succop, TB",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Jimmy Garoppolo (168)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Jimmy Garoppolo, SF",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Nick Mullens (343)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Nick Mullens, SF",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Raheem Mostert (60)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Raheem Mostert, SF",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Tevin Coleman (104)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Tevin Coleman, SF",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Jerick McKinnon (156)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Jerick McKinnon, SF",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Deebo Samuel (68)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Deebo Samuel, SF",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Brandon Aiyuk (145)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Brandon Aiyuk, SF",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Trent Taylor (227)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Trent Taylor, SF",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "SF"
+    "depthPlayer": "",
+    "team": "SF",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "George Kittle (23)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "George Kittle, SF",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Jordan Reed (325)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Jordan Reed, SF",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Robbie Gould (187)",
-    "team": "SF"
+    "team": "SF",
+    "playerId": "Robbie Gould, SF",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Carson Wentz (118)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Carson Wentz, PHI",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Jalen Hurts (315)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Jalen Hurts, PHI",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Miles Sanders (8)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Miles Sanders, PHI",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Boston Scott (155)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Boston Scott, PHI",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Corey Clement (309)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Corey Clement, PHI",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "DeSean Jackson (107)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "DeSean Jackson, PHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Alshon Jeffery (148)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Alshon Jeffery, PHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Jalen Reagor (152)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Jalen Reagor, PHI",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "J.J. Arcega-Whiteside (294)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "J.J. Arcega-Whiteside, PHI",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Zach Ertz (42)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Zach Ertz, PHI",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Dallas Goedert (193)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Dallas Goedert, PHI",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Jake Elliott (189)",
-    "team": "PHI"
+    "team": "PHI",
+    "playerId": "Jake Elliott, PHI",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Matthew Stafford (121)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Matthew Stafford, DET",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "DET"
+    "depthPlayer": "",
+    "team": "DET",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "D'Andre Swift (57)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "D'Andre Swift, DET",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Kerryon Johnson (72)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Kerryon Johnson, DET",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Bo Scarbrough (305)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Bo Scarbrough, DET",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Kenny Golladay (24)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Kenny Golladay, DET",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Marvin Jones Jr. (78)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Marvin Jones Jr., DET",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Danny Amendola (215)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Danny Amendola, DET",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "DET"
+    "depthPlayer": "",
+    "team": "DET",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "T.J. Hockenson (115)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "T.J. Hockenson, DET",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "DET"
+    "depthPlayer": "",
+    "team": "DET",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Matt Prater (184)",
-    "team": "DET"
+    "team": "DET",
+    "playerId": "Matt Prater, DET",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Matt Ryan (116)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Matt Ryan, ATL",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "ATL"
+    "depthPlayer": "",
+    "team": "ATL",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Todd Gurley II (43)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Todd Gurley II, ATL",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Ito Smith (206)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Ito Smith, ATL",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Brian Hill (207)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Brian Hill, ATL",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Julio Jones (18)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Julio Jones, ATL",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Calvin Ridley (32)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Calvin Ridley, ATL",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Russell Gage (198)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Russell Gage, ATL",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "ATL"
+    "depthPlayer": "",
+    "team": "ATL",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Hayden Hurst (114)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Hayden Hurst, ATL",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "ATL"
+    "depthPlayer": "",
+    "team": "ATL",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Younghoe Koo (224)",
-    "team": "ATL"
+    "team": "ATL",
+    "playerId": "Younghoe Koo, ATL",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Kyler Murray (74)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Kyler Murray, ARI",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "ARI"
+    "depthPlayer": "",
+    "team": "ARI",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Kenyan Drake (10)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Kenyan Drake, ARI",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Chase Edmonds (142)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Chase Edmonds, ARI",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Eno Benjamin (320)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Eno Benjamin, ARI",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "DeAndre Hopkins (17)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "DeAndre Hopkins, ARI",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Christian Kirk (94)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Christian Kirk, ARI",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Larry Fitzgerald (149)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Larry Fitzgerald, ARI",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Andy Isabella (263)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Andy Isabella, ARI",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Dan Arnold (290)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Dan Arnold, ARI",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "ARI"
+    "depthPlayer": "",
+    "team": "ARI",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Zane Gonzalez (188)",
-    "team": "ARI"
+    "team": "ARI",
+    "playerId": "Zane Gonzalez, ARI",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Daniel Jones (137)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Daniel Jones, NYG",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "NYG"
+    "depthPlayer": "",
+    "team": "NYG",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Saquon Barkley (2)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Saquon Barkley, NYG",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Dion Lewis (276)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Dion Lewis, NYG",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Wayne Gallman (277)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Wayne Gallman, NYG",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Sterling Shepard (93)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Sterling Shepard, NYG",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Golden Tate (96)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Golden Tate, NYG",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Darius Slayton (98)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Darius Slayton, NYG",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "NYG"
+    "depthPlayer": "",
+    "team": "NYG",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Evan Engram (82)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Evan Engram, NYG",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "NYG"
+    "depthPlayer": "",
+    "team": "NYG",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Graham Gano (349)",
-    "team": "NYG"
+    "team": "NYG",
+    "playerId": "Graham Gano, NYG",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Aaron Rodgers (122)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Aaron Rodgers, GB",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Jordan Love (342)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Jordan Love, GB",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Aaron Jones (13)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Aaron Jones, GB",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "AJ Dillon (160)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "AJ Dillon, GB",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Jamaal Williams (202)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Jamaal Williams, GB",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Davante Adams (16)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Davante Adams, GB",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Allen Lazard (150)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Allen Lazard, GB",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Marquez Valdes-Scantling (273)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Marquez Valdes-Scantling, GB",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Jake Kumerow (274)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Jake Kumerow, GB",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jace Sternberger (314)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Jace Sternberger, GB",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "GB"
+    "depthPlayer": "",
+    "team": "GB",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Mason Crosby (287)",
-    "team": "GB"
+    "team": "GB",
+    "playerId": "Mason Crosby, GB",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Teddy Bridgewater (267)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Teddy Bridgewater, CAR",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Phillip Walker (337)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Phillip Walker, CAR",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Christian McCaffrey (1)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Christian McCaffrey, CAR",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Mike Davis (278)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Mike Davis, CAR",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Reggie Bonnafon (303)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Reggie Bonnafon, CAR",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "DJ Moore (25)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "DJ Moore, CAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Robby Anderson (97)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Robby Anderson, CAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Curtis Samuel (123)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Curtis Samuel, CAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "CAR"
+    "depthPlayer": "",
+    "team": "CAR",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Ian Thomas (246)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Ian Thomas, CAR",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "CAR"
+    "depthPlayer": "",
+    "team": "CAR",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Joey Slye (346)",
-    "team": "CAR"
+    "team": "CAR",
+    "playerId": "Joey Slye, CAR",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Jared Goff (166)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Jared Goff, LAR",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "LAR"
+    "depthPlayer": "",
+    "team": "LAR",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Cam Akers (48)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Cam Akers, LAR",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Darrell Henderson Jr. (91)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Darrell Henderson Jr., LAR",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Malcolm Brown (238)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Malcolm Brown, LAR",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Robert Woods (36)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Robert Woods, LAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Cooper Kupp (38)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Cooper Kupp, LAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Van Jefferson (194)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Van Jefferson, LAR",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
     "depthPlayer": "Josh Reynolds (225)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Josh Reynolds, LAR",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Tyler Higbee (83)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Tyler Higbee, LAR",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Gerald Everett (289)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Gerald Everett, LAR",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Sam Sloman (255)",
-    "team": "LAR"
+    "team": "LAR",
+    "playerId": "Sam Sloman, LAR",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Dwayne Haskins Jr. (269)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Dwayne Haskins Jr., WAS",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Alex Smith (335)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Alex Smith, WAS",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Antonio Gibson (59)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Antonio Gibson, WAS",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Bryce Love (235)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Bryce Love, WAS",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "J.D. McKissic (242)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "J.D. McKissic, WAS",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Terry McLaurin (52)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Terry McLaurin, WAS",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Steven Sims Jr. (213)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Steven Sims Jr., WAS",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Antonio Gandy-Golden (234)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Antonio Gandy-Golden, WAS",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "WAS"
+    "depthPlayer": "",
+    "team": "WAS",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Logan Thomas (311)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Logan Thomas, WAS",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
-    "depthPlayer": "-",
-    "team": "WAS"
+    "depthPlayer": "",
+    "team": "WAS",
+    "playerId": "",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Dustin Hopkins (354)",
-    "team": "WAS"
+    "team": "WAS",
+    "playerId": "Dustin Hopkins, WAS",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Kirk Cousins (212)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Kirk Cousins, MIN",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "MIN"
+    "depthPlayer": "",
+    "team": "MIN",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Dalvin Cook (4)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Dalvin Cook, MIN",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Alexander Mattison (103)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Alexander Mattison, MIN",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Mike Boone (306)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Mike Boone, MIN",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Adam Thielen (27)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Adam Thielen, MIN",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Justin Jefferson (127)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Justin Jefferson, MIN",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
-    "depthPlayer": "-",
-    "team": "MIN"
+    "depthPlayer": "",
+    "team": "MIN",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "MIN"
+    "depthPlayer": "",
+    "team": "MIN",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Irv Smith Jr. (163)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Irv Smith Jr., MIN",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Kyle Rudolph (257)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Kyle Rudolph, MIN",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Dan Bailey (256)",
-    "team": "MIN"
+    "team": "MIN",
+    "playerId": "Dan Bailey, MIN",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Drew Brees (120)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Drew Brees, NO",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
     "depthPlayer": "Jameis Winston (318)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Jameis Winston, NO",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Alvin Kamara (5)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Alvin Kamara, NO",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Latavius Murray (105)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Latavius Murray, NO",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Ty Montgomery (307)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Ty Montgomery, NO",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Michael Thomas (6)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Michael Thomas, NO",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "Emmanuel Sanders (100)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Emmanuel Sanders, NO",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
-    "depthPlayer": "-",
-    "team": "NO"
+    "depthPlayer": "",
+    "team": "NO",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "NO"
+    "depthPlayer": "",
+    "team": "NO",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Jared Cook (111)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Jared Cook, NO",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Taysom Hill (323)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Taysom Hill, NO",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Wil Lutz (183)",
-    "team": "NO"
+    "team": "NO",
+    "playerId": "Wil Lutz, NO",
+    "pos": "K"
   },
   {
     "depthId": "QB1",
     "depthPlayer": "Russell Wilson (76)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Russell Wilson, SEA",
+    "pos": "QB"
   },
   {
     "depthId": "QB2",
-    "depthPlayer": "-",
-    "team": "SEA"
+    "depthPlayer": "",
+    "team": "SEA",
+    "playerId": "",
+    "pos": "QB"
   },
   {
     "depthId": "RB1",
     "depthPlayer": "Chris Carson (39)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Chris Carson, SEA",
+    "pos": "RB"
   },
   {
     "depthId": "RB2",
     "depthPlayer": "Carlos Hyde (199)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Carlos Hyde, SEA",
+    "pos": "RB"
   },
   {
     "depthId": "RB3",
     "depthPlayer": "Rashaad Penny (237)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Rashaad Penny, SEA",
+    "pos": "RB"
   },
   {
     "depthId": "WR1",
     "depthPlayer": "Tyler Lockett (37)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Tyler Lockett, SEA",
+    "pos": "WR"
   },
   {
     "depthId": "WR2",
     "depthPlayer": "DK Metcalf (54)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "DK Metcalf, SEA",
+    "pos": "WR"
   },
   {
     "depthId": "WR3",
     "depthPlayer": "Phillip Dorsett II (262)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Phillip Dorsett II, SEA",
+    "pos": "WR"
   },
   {
     "depthId": "WR4",
-    "depthPlayer": "-",
-    "team": "SEA"
+    "depthPlayer": "",
+    "team": "SEA",
+    "playerId": "",
+    "pos": "WR"
   },
   {
     "depthId": "TE1",
     "depthPlayer": "Will Dissly (258)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Will Dissly, SEA",
+    "pos": "TE"
   },
   {
     "depthId": "TE2",
     "depthPlayer": "Greg Olsen (259)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Greg Olsen, SEA",
+    "pos": "TE"
   },
   {
     "depthId": "K",
     "depthPlayer": "Jason Myers (288)",
-    "team": "SEA"
+    "team": "SEA",
+    "playerId": "Jason Myers, SEA",
+    "pos": "K"
   }
 ]
