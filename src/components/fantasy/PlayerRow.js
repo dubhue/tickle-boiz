@@ -16,6 +16,7 @@ Styled.Row = styled.tr`
 `;
 
 Styled.Player = styled.td`
+  position: relative;
   font-style: ${({ isRookie }) => (isRookie ? "italic" : "normal")};
   color: ${({ isRookie }) => (isRookie ? "green" : "black")};
   font-weight: ${({ isRookie, rank }) =>
@@ -26,6 +27,26 @@ Styled.Stat = styled.td`
   color: ${({ isRookie }) => (isRookie ? "green" : "black")};
   font-weight: ${({ isRookie, rank }) =>
     isRookie || rank < 11 ? "bold" : "normal"};
+`;
+
+Styled.RowColor = styled.div`
+  position: absolute;
+  background: ${({ rank }) =>
+    rank < 6
+      ? "rgba(62,238,46,.25)"
+      : rank < 11
+      ? "rgba(0,201,176,.25)"
+      : rank < 21
+      ? "rgba(255,193,0,.25)"
+      : rank < 31
+      ? "rgba(255,123,0,.25)"
+      : rank > 60
+      ? "rgba(231,231,204,.25)"
+      : "none"};
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 `;
 
 const PlayerRow = ({ player, hide, index, draftAction }) => {
@@ -47,6 +68,7 @@ const PlayerRow = ({ player, hide, index, draftAction }) => {
     hide ? null : (
     <Styled.Row status={status} rank={espnRankPos}>
       <Styled.Player isRookie={isRookie} rank={espnRankPos}>
+        <Styled.RowColor rank={espnRankPos} />
         {name}
       </Styled.Player>
       <td>{rank}</td>

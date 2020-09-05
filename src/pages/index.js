@@ -67,7 +67,7 @@ const getPlayers = (graph) => {
       const copy = {
         ...players[slugify(playerId)],
         bye,
-        auction: parseInt(auction.slice(1, auction.length)),
+        auction: Math.ceil(parseInt(auction.slice(1, auction.length)) * 1.655),
         espnRankPos,
         rank: parseInt(espnRankOverall.slice(1, espnRankOverall.length - 1)),
       };
