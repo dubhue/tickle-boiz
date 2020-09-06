@@ -8,7 +8,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { MainLayout, Sticky, Copyright } from "wmk-lib";
+import { MainLayout, Copyright } from "wmk-lib";
 
 import Header from "./Header/Header";
 
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <MainLayout
-        Header={() => <Sticky><Header siteTitle={data.site.siteMetadata.title} /></Sticky>}
+        Header={() => null}
         Footer={() => (
           <footer>
             <Copyright>Watermark Agency</Copyright>

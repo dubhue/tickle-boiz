@@ -4,6 +4,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { Table, Button, Form, Container, Row, Col } from "react-bootstrap";
 import PlayerRow from "../components/fantasy/PlayerRow";
 import { IoIosStar } from "react-icons/io";
+import { Sticky } from "wmk-lib";
 
 const slugify = (string) => {
   const a =
@@ -207,32 +208,41 @@ const IndexPage = ({ pageContext }) => {
   };
   return (
     <Layout>
-      <Container>
-        <Row>
-          <Col>
-            <Form onSubmit={handleSearch}>
-              <Form.Group controlId="formSearch">
-                <Form.Label>Search</Form.Label>
-                <Form.Control
-                  type="text"
-                  value={searchKey}
-                  onChange={handleInput}
-                />
-              </Form.Group>
-              {/* <Button variant="info" onSubmit={handleSearch}>
+      <Sticky>
+        <Container
+          style={{
+            background: "rebeccapurple",
+            color: "white",
+            padding: "1vh",
+          }}
+          fluid
+        >
+          <Row>
+            <Col>
+              <Form onSubmit={handleSearch}>
+                <Form.Group controlId="formSearch">
+                  <Form.Label>Search</Form.Label>
+                  <Form.Control
+                    type="text"
+                    value={searchKey}
+                    onChange={handleInput}
+                  />
+                </Form.Group>
+                {/* <Button variant="info" onSubmit={handleSearch}>
                 Search
               </Button> */}
-            </Form>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Form.Group>
-              <Button onClick={toggleKeepers}>Toggle Drafted</Button>
-            </Form.Group>
-          </Col>
-        </Row>
-      </Container>
+              </Form>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Form.Group>
+                <Button onClick={toggleKeepers}>Toggle Drafted</Button>
+              </Form.Group>
+            </Col>
+          </Row>
+        </Container>
+      </Sticky>
 
       <Table>
         <thead>
