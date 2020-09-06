@@ -93,6 +93,7 @@ const PlayerRow = ({ player, hide, index, draftAction }) => {
   return status === "keeper" && hide ? null : status === "drafted" &&
     hide ? null : (
     <Styled.Row status={status} rank={espnRankPos}>
+      <td>{index + "."}</td>
       <Styled.Icon
         rank={espnRankPos}
         age={age}

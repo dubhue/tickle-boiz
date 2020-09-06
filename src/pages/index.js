@@ -237,6 +237,7 @@ const IndexPage = ({ pageContext }) => {
       <Table>
         <thead>
           <tr>
+            <th>#</th>
             <th>
               <IoIosStar />
             </th>
