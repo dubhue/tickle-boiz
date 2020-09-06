@@ -3,6 +3,7 @@ import Layout from "../components/layout/MainLayout";
 import { graphql, useStaticQuery } from "gatsby";
 import { Table, Button, Form, Container, Row, Col } from "react-bootstrap";
 import PlayerRow from "../components/fantasy/PlayerRow";
+import { IoIosStar } from "react-icons/io";
 
 const slugify = (string) => {
   const a =
@@ -134,9 +135,16 @@ const getPlayers = (graph) => {
     players[key] = pos
       ? players[key]
       : { ...players[key], pos: getPosFromDynasty(dynasty) };
-    players[key] = age ? players[key] : { ...players[key], age: "N/A" };
+    players[key] = age
+      ? { ...players[key], age: ageToDecimal(age) }
+      : { ...players[key], age: "N/A" };
     return { ...players[key], slug: key };
   });
+};
+
+const ageToDecimal = (str) => {
+  const split = str.split("-");
+  return Number(parseInt(split[0]) + parseInt(split[1]) / 12).toPrecision(3);
 };
 
 const getPosFromDynasty = (dynasty) => {
@@ -229,6 +237,9 @@ const IndexPage = ({ pageContext }) => {
       <Table>
         <thead>
           <tr>
+            <th>
+              <IoIosStar />
+            </th>
             <th>Player</th>
             <th>Rank</th>
             <th>Pos. Rank</th>

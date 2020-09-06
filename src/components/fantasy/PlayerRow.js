@@ -1,7 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "react-bootstrap";
-import { IoIosClose } from "react-icons/io";
+import {
+  IoIosClose,
+  IoIosStar,
+  IoIosFlash,
+  IoIosSchool,
+  IoMdHeartHalf,
+  IoIosHeartEmpty,
+} from "react-icons/io";
 
 const Styled = {};
 
@@ -49,10 +56,29 @@ Styled.RowColor = styled.div`
   height: 100%;
 `;
 
+const Icon = ({ rank, age, isRookie, depth }) => {
+  return (
+    <td>
+      {rank < 4 ? (
+        <IoIosStar />
+      ) : age > 23.5 && age < 25 ? (
+        <IoIosFlash />
+      ) : isRookie ? (
+        <IoIosSchool />
+      ) : depth.indexOf("2") > -1 ? (
+        <IoMdHeartHalf />
+      ) : depth.indexOf("1") === -1 ? (
+        <IoIosHeartEmpty />
+      ) : null}
+    </td>
+  );
+};
+
+Styled.Icon = styled(Icon)``;
+
 const PlayerRow = ({ player, hide, index, draftAction }) => {
   const {
     name,
-    slug,
     depth,
     pos,
     espnRankPos,
@@ -67,6 +93,12 @@ const PlayerRow = ({ player, hide, index, draftAction }) => {
   return status === "keeper" && hide ? null : status === "drafted" &&
     hide ? null : (
     <Styled.Row status={status} rank={espnRankPos}>
+      <Styled.Icon
+        rank={espnRankPos}
+        age={age}
+        isRookie={isRookie}
+        depth={depth}
+      />
       <Styled.Player isRookie={isRookie} rank={espnRankPos}>
         <Styled.RowColor rank={espnRankPos} />
         {name}
