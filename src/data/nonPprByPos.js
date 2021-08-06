@@ -74,9 +74,8 @@ const rawNonPpr = `1. (55) Patrick Mahomes, KC $10 12 1. (1) Christian McCaffrey
 32. (291) C.J. Uzomah, CIN $0 10 74. (237) Damien Williams, CHI $0 10 64. (154) Rashod Bateman, BAL $0 8
 33. (292) Hayden Hurst, ATL $0 6 75. (238) Kenneth Gainwell, PHI $0 14 65. (155) Randall Cobb, GB $0 13
 34. (293) Dan Arnold, CAR $0 13 76. (239) La'Mical Perine, NYJ $0 6 66. (156) Rondale Moore, ARI $0 12
-35. (311) Dalton Schultz, DAL $0 7 77. (240) Mark Ingram II, HOU $0 10 67. (157) Jamison Crowder, NYJ $0 6`
+35. (311) Dalton Schultz, DAL $0 7 77. (240) Mark Ingram II, HOU $0 10 67. (157) Jamison Crowder, NYJ $0 6`;
 
-export const numero = /\d+\.\s/
+export const numero = /\d+\.\s/;
 
-export const nonPpr = rawNonPpr.replace(/\n/g,"").split(numero) 
-
+export const nonPpr = rawNonPpr.replace(/\n/g, "").split(numero);

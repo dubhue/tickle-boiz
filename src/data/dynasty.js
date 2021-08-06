@@ -1,5 +1,5 @@
-import { numero } from "./nonPprByPos"
-import { parens } from "./top300"
+import { numero } from "./nonPprByPos";
+import { parens } from "./top300";
 
 const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myles Gaskin, MIA 2019-7 24-6 161. (WR74) Allen Lazard, GB 2018-U 25-8 1. (WR1) Ja'Marr Chase, CIN 2021-1 21-6
 2. (RB2) Saquon Barkley, NYG 2018-1 24-7 82. (RB26) Zack Moss, BUF 2020-3 23-8 162. (WR75) Marvin Jones Jr., JAC 2012-5 31-5 2. (RB1) Najee Harris, PIT 2021-1 23-6
@@ -80,21 +80,31 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 77. (WR40) Terrace Marshall Jr., CAR 2021-2 21-3 157. (WR73) Cole Beasley, BUF 2012-U 32-4 237. (RB71) Elijah Mitchell, SF 2021-6 23-4
 78. (WR41) Rashod Bateman, BAL 2021-1 21-9 158. (QB20) Tom Brady, TB 2000-6 44-1 238. (TE32) Dalton Schultz, DAL 2018-4 25-1
 79. (WR42) Kadarius Toney, NYG 2021-1 22-7 159. (RB49) Kenneth Gainwell, PHI 2021-5 22-5 239. (QB31) Drew Lock, DEN 2019-2 24-9
-80. (QB7) Trevor Lawrence, JAC 2021-1 21-11 160. (TE18) Austin Hooper, CLE 2016-3 26-10 240. (TE33) Dan Arnold, CAR 2017-U 26-5`
+80. (QB7) Trevor Lawrence, JAC 2021-1 21-11 160. (TE18) Austin Hooper, CLE 2016-3 26-10 240. (TE33) Dan Arnold, CAR 2017-U 26-5`;
 
-const _dynasty = rawDynasty.split(numero)
+const _dynasty = rawDynasty.split(numero);
 
-export const dynasty = _dynasty.slice(1,_dynasty.length).map(str=>{
-    const _posRank =  str.match(parens)
-    //const posRank = Array.isArray(_posRank) ? parseInt(_posRank[0].replace(/\D/g,"")) : 999
-    const pos = Array.isArray(_posRank) ? _posRank[0].replace(/[^a-z]/gi,'') : 'SCRUB'
-    const split = str.replace(parens,'').split(',')
-    const name = split[0].trim()
-    //console.log(split[1])
-    const details = split[1].trim().split(" ")
-    const short = details[0]
-    const exp = details[1].split('-')
-    const age = details[2].split('-')
-    const draftRound = exp[1] === 'U' ? 8 : parseInt(exp[1])
-    return {pos, name, short, id: name+pos+short, draftYear: parseInt(exp[0]), draftRound , age: parseInt(age[0])+(parseInt(age[1])/12) }
-})
+export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
+  const _posRank = str.match(parens);
+  //const posRank = Array.isArray(_posRank) ? parseInt(_posRank[0].replace(/\D/g,"")) : 999
+  const pos = Array.isArray(_posRank)
+    ? _posRank[0].replace(/[^a-z]/gi, "")
+    : "SCRUB";
+  const split = str.replace(parens, "").split(",");
+  const name = split[0].trim();
+  //console.log(split[1])
+  const details = split[1].trim().split(" ");
+  const short = details[0];
+  const exp = details[1].split("-");
+  const age = details[2].split("-");
+  const draftRound = exp[1] === "U" ? 8 : parseInt(exp[1]);
+  return {
+    pos,
+    name,
+    short,
+    id: name + pos + short,
+    draftYear: parseInt(exp[0]),
+    draftRound,
+    age: parseInt(age[0]) + parseInt(age[1]) / 12
+  };
+});

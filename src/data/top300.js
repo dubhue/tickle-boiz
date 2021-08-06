@@ -1,4 +1,4 @@
-import { numero } from "./nonPprByPos"
+import { numero } from "./nonPprByPos";
 
 const rawTop300 = `1. (RB1) Christian McCaffrey, CAR $62 13 81. (TE7) Logan Thomas, WAS $4 9 161. (RB58) Devontae Booker, NYG $0 10 241. (RB78) Qadree Ollison, ATL $0 6
 2. (RB2) Dalvin Cook, MIN $59 7 82. (TE8) Dallas Goedert, PHI $4 14 162. (RB59) Sony Michel, NE $0 14 242. (RB79) Cordarrelle Patterson, ATL $0 6
@@ -79,22 +79,26 @@ const rawTop300 = `1. (RB1) Christian McCaffrey, CAR $62 13 81. (TE7) Logan Thom
 77. (RB28) Mike Davis, ATL $5 6 157. (WR67) Jamison Crowder, NYJ $0 6 237. (RB74) Damien Williams, CHI $0 10
 78. (QB5) Lamar Jackson, BAL $4 8 158. (WR68) Breshad Perriman, DET $0 9 238. (RB75) Kenneth Gainwell, PHI $0 14
 79. (QB6) Aaron Rodgers, GB $4 13 159. (RB56) Rashaad Penny, SEA $0 9 239. (RB76) La'Mical Perine, NYJ $0 6
-80. (QB7) Russell Wilson, SEA $4 9 160. (RB57) Ty Johnson, NYJ $0 6 240. (RB77) Mark Ingram II, HOU $0 10`
+80. (QB7) Russell Wilson, SEA $4 9 160. (RB57) Ty Johnson, NYJ $0 6 240. (RB77) Mark Ingram II, HOU $0 10`;
 
-const _top300 = rawTop300.replace(/\n/g,"").split(numero)
-export const parens = /\(([^()]+)\)/g
+const _top300 = rawTop300.replace(/\n/g, "").split(numero);
+export const parens = /\(([^()]+)\)/g;
 
-export const top300 = _top300.slice(1,_top300.length).map(str=>{
-    const _posRank =  str.match(parens)
-    const posRank = Array.isArray(_posRank) ? parseInt(_posRank[0].replace(/\D/g,"")) : 999
-    const pos = Array.isArray(_posRank) ? _posRank[0].replace(/[^a-z]/gi,'') : 'SCRUB'
-    const split = str.replace(parens,'').split(',')
-    const name = split[0].trim()
-    const details = split[1].trim().split(" ")
-    const short = details[0]
-    const value = parseInt(details[1].replace('$',""))
-    return {name, posRank, pos,short, value}
-})
+export const top300 = _top300.slice(1, _top300.length).map((str) => {
+  const _posRank = str.match(parens);
+  const posRank = Array.isArray(_posRank)
+    ? parseInt(_posRank[0].replace(/\D/g, ""))
+    : 999;
+  const pos = Array.isArray(_posRank)
+    ? _posRank[0].replace(/[^a-z]/gi, "")
+    : "SCRUB";
+  const split = str.replace(parens, "").split(",");
+  const name = split[0].trim();
+  const details = split[1].trim().split(" ");
+  const short = details[0];
+  const value = parseInt(details[1].replace("$", ""));
+  return { name, posRank, pos, short, value };
+});
 // lines.forEach((line,i)=>{
 //     console.log(line)
 // })
