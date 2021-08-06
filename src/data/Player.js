@@ -1,7 +1,6 @@
 import get from "lodash/get";
-import { nfl } from "../pages";
-import { getHashTable } from "./Team";
-import { parens } from "./top300";
+import { getHashTable, nfl } from "./Team";
+
 
 export class Player {
   constructor(node) {
@@ -32,6 +31,8 @@ export class Players {
       const merge = mergeHash[player.id];
       return { ...merge, ...player };
     });
-    console.log(merged);
+    this.list = merged;
+    this.length = merged.length;
+    this.hash = getHashTable(merged, `id`);
   }
 }

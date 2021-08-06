@@ -5,11 +5,8 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { top300 } from "../data/top300";
-import { rawTeams, Teams, byes } from "../data/Team";
 import { Players } from "../data/Player";
 import { dynasty } from "../data/dynasty";
-
-export const nfl = new Teams(rawTeams, byes);
 
 const IndexPage = () => {
   const players = new Players(top300);

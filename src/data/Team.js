@@ -203,3 +203,5 @@ export const getHashTable = (obj, param) =>
         return hash;
       }, {})
     : {};
+
+export const nfl = new Teams(rawTeams, byes);
