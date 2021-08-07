@@ -1,5 +1,8 @@
 import { numero } from "./nonPprByPos";
+import { nfl } from "./Team";
 import { parens } from "./top300";
+import get from "lodash/get";
+import slugify from "slugify";
 
 const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myles Gaskin, MIA 2019-7 24-6 161. (WR74) Allen Lazard, GB 2018-U 25-8 1. (WR1) Ja'Marr Chase, CIN 2021-1 21-6
 2. (RB2) Saquon Barkley, NYG 2018-1 24-7 82. (RB26) Zack Moss, BUF 2020-3 23-8 162. (WR75) Marvin Jones Jr., JAC 2012-5 31-5 2. (RB1) Najee Harris, PIT 2021-1 23-6
@@ -25,12 +28,12 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 22. (WR10) DeAndre Hopkins, ARI 2013-1 29-3 102. (WR52) Robby Anderson, CAR 2016-U 28-4 182. (RB55) Gus Edwards, BAL 2018-U 26-4 22. (WR12) Nico Collins, HOU 2021-3 22-5
 23. (RB13) Derrick Henry, TEN 2016-2 27-8 103. (WR53) Darnell Mooney, CHI 2020-5 23-10 183. (QB25) Carson Wentz, IND 2016-1 28-8 23. (WR13) Amari Rodgers, GB 2021-3 21-11
 24. (RB14) Austin Ekeler, LAC 2017-U 26-3 104. (TE9) Mike Gesicki, MIA 2018-2 25-11 184. (WR84) Jamison Crowder, NYJ 2015-4 28-2 24. (WR14) Dyami Brown, WAS 2021-3 21-10
-25. (RB15) Aaron Jones, GB 2017-5 26-9 105. (RB31) Darrell Henderson, LAR 2019-3 24-0 185. (WR85) Sterling Shepard, NYG 2016-2 27-6 25. (WR15) Amon-Ra St. Brown, DET 2021-4 21-10
+25. (RB15) Aaron Jones, GB 2017-5 26-9 105. (RB31) Darrell Henderson Jr., LAR 2019-3 24-0 185. (WR85) Sterling Shepard, NYG 2016-2 27-6 25. (WR15) Amon-Ra St. Brown, DET 2021-4 21-10
 26. (WR11) Terry McLaurin, WAS 2019-3 25-4 106. (RB32) Trey Sermon, SF 2021-3 22-7 186. (RB56) James White, NE 2014-4 29-7 26. (WR16) Anthony Schwartz, CLE 2021-3 21-0
 27. (WR12) DJ Moore, CAR 2018-1 24-4 107. (QB13) Justin Fields, CHI 2021-1 22-6 187. (TE21) Pat Freiermuth, PIT 2021-2 22-10 27. (RB6) Rhamondre Stevenson, NE 2021-4 23-6
 28. (RB16) Joe Mixon, CIN 2017-2 25-1 108. (WR54) Mecole Hardman, KC 2019-2 24-5 188. (WR86) Tre'Quan Smith, NO 2018-3 25-8 28. (RB7) Kenneth Gainwell, PHI 2021-5 22-5
 29. (WR13) Amari Cooper, DAL 2015-1 27-2 109. (WR55) Parris Campbell, IND 2019-2 24-1 189. (QB26) Ben Roethlisberger, PIT 2004-1 39-6 29. (RB8) Chuba Hubbard, CAR 2021-4 22-2
-30. (WR14) Allen Robinson, CHI 2014-2 28-0 110. (QB14) Zach Wilson, NYJ 2021-1 22-1 190. (RB57) DeeJay Dallas, SEA 2020-4 22-11 30. (QB5) Mac Jones, NE 2021-1 23-0
+30. (WR14) Allen Robinson II, CHI 2014-2 28-0 110. (QB14) Zach Wilson, NYJ 2021-1 22-1 190. (RB57) DeeJay Dallas, SEA 2020-4 22-11 30. (QB5) Mac Jones, NE 2021-1 23-0
 31. (WR15) Brandon Aiyuk, SF 2020-1 23-5 111. (TE10) Irv Smith Jr., MIN 2019-2 23-1 191. (WR87) Tyrell Williams, DET 2015-U 29-6 31. (TE2) Pat Freiermuth, PIT 2021-2 22-10
 32. (QB1) Patrick Mahomes, KC 2017-1 25-11 112. (RB33) Michael Carter, NYJ 2021-4 22-4 192. (WR88) A.J. Green, ARI 2011-1 33-1 32. (WR17) Tylan Wallace, BAL 2021-4 22-3
 33. (WR16) Tee Higgins, CIN 2020-2 22-7 113. (WR56) Jakobi Meyers, NE 2019-U 24-10 193. (QB27) Kirk Cousins, MIN 2012-4 33-0 33. (WR18) Dez Fitzpatrick, TEN 2021-4 23-8
@@ -38,7 +41,7 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 35. (RB17) Travis Etienne, JAC 2021-1 22-7 115. (RB35) Mike Davis, ATL 2015-4 28-6 195. (TE22) Anthony Firkser, TEN 2018-U 26-6 35. (WR20) Jaelon Darden, TB 2021-4 22-7
 36. (TE2) Kyle Pitts, ATL 2021-1 20-11 116. (QB15) Trey Lance, SF 2021-1 21-4 196. (RB58) Latavius Murray, NO 2013-6 31-7 36. (TE3) Hunter Long, MIA 2021-3 23-0
 37. (TE3) George Kittle, SF 2017-5 27-11 117. (WR57) Gabriel Davis, BUF 2020-4 22-5 197. (TE23) Chris Herndon, NYJ 2018-4 25-6 37. (TE5) Tre' McKitty, LAC 2021-3 22-7
-38. (WR17) Michael A. Thomas, NO 2016-2 28-6 118. (WR58) Corey Davis, NYJ 2017-1 26-7 198. (RB59) Rashaad Penny, SEA 2018-1 25-7 38. (RB9) Elijah Mitchell, SF 2021-6 23-4
+38. (WR17) Michael Thomas, NO 2016-2 28-6 118. (WR58) Corey Davis, NYJ 2017-1 26-7 198. (RB59) Rashaad Penny, SEA 2018-1 25-7 38. (RB9) Elijah Mitchell, SF 2021-6 23-4
 39. (WR18) Diontae Johnson, PIT 2019-3 24-10 119. (WR59) Jarvis Landry, CLE 2014-2 28-9 199. (WR90) John Brown, LV 2014-3 31-5 39. (RB10) Chris Evans, CIN 2021-6 23-11
 40. (WR19) Chris Godwin, TB 2017-3 25-6 120. (TE11) Logan Thomas, WAS 2014-4 30-2 200. (QB28) Sam Darnold, CAR 2018-1 24-3 40. (RB11) Khalil Herbert, CHI 2021-6 23-4
 41. (WR20) Mike Evans, TB 2014-1 28-0 121. (RB36) Leonard Fournette, TB 2017-1 26-7 201. (WR91) Deonte Harris, NO 2019-U 23-9 41. (RB12) Demetric Felton, CLE 2021-6 23-1
@@ -66,7 +69,7 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 63. (RB23) Chris Carson, SEA 2017-7 26-11 143. (WR65) Amari Rodgers, GB 2021-3 21-11 223. (RB67) Sony Michel, NE 2018-1 26-6
 64. (QB5) Dak Prescott, DAL 2016-4 28-1 144. (TE16) Cole Kmet, CHI 2020-2 22-5 224. (WR100) Cornell Powell, KC 2021-5 23-10
 65. (QB6) Justin Herbert, LAC 2020-1 23-5 145. (WR66) Dyami Brown, WAS 2021-3 21-10 225. (WR101) Jaelon Darden, TB 2021-4 22-7
-66. (WR31) DJ Chark, JAC 2018-2 24-11 146. (WR67) Amon-Ra St. Brown, DET 2021-4 21-10 226. (WR102) Donovan Peoples-Jones, CLE 2020-6 22-6
+66. (WR31) DJ Chark Jr., JAC 2018-2 24-11 146. (WR67) Amon-Ra St. Brown, DET 2021-4 21-10 226. (WR102) Donovan Peoples-Jones, CLE 2020-6 22-6
 67. (WR32) Adam Thielen, MIN 2014-U 31-0 147. (RB45) Tony Pollard, DAL 2019-4 24-4 227. (TE29) Hunter Long, MIA 2021-3 23-0
 68. (TE7) Noah Fant, DEN 2019-1 23-9 148. (RB46) Jamaal Williams, DET 2017-4 26-5 228. (RB68) Wayne Gallman, SF 2017-4 26-11
 69. (RB24) James Robinson, JAC 2020-U 23-1 149. (RB47) Darrynton Evans, TEN 2020-3 23-2 229. (RB69) Kerryon Johnson, PHI 2018-2 24-2
@@ -84,6 +87,8 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 
 const _dynasty = rawDynasty.split(numero);
 
+export const slugifyTitle = (str) => slugify(str, { lower: true, strict: true });
+
 export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
   const _posRank = str.match(parens);
   //const posRank = Array.isArray(_posRank) ? parseInt(_posRank[0].replace(/\D/g,"")) : 999
@@ -98,13 +103,18 @@ export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
   const exp = details[1].split("-");
   const age = details[2].split("-");
   const draftRound = exp[1] === "U" ? 8 : parseInt(exp[1]);
+  const team = get(nfl, `hash[${short}]`);
+  
   return {
     pos,
     name,
     short,
-    id: name + pos + short,
+    id: slugifyTitle(name.trim() + ", " + short.trim()),
     draftYear: parseInt(exp[0]),
     draftRound,
-    age: parseInt(age[0]) + parseInt(age[1]) / 12
+    age: parseInt(age[0]) + parseInt(age[1]) / 12,
+    team
   };
 });
+
+

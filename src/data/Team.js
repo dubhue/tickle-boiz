@@ -193,9 +193,9 @@ export class Teams {
   }
 }
 
-export const getHashTable = (obj, param) =>
-  obj && obj.length
-    ? obj.reduce((hash, p) => {
+export const getHashTable = (arr, param) => {
+  return arr && arr.length
+    ? arr.reduce((hash, p) => {
         const slug = get(p, param);
         if (typeof slug !== "undefined") {
           hash[slug] = p;
@@ -203,5 +203,6 @@ export const getHashTable = (obj, param) =>
         return hash;
       }, {})
     : {};
+};
 
 export const nfl = new Teams(rawTeams, byes);
