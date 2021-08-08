@@ -1,4 +1,5 @@
 import get from "lodash/get";
+import { slugifyTitle } from "./dynasty";
 
 const rawDepth = `
 QB1 Josh Allen (56) QB1 Tua Tagovailoa (145) QB1 Zach Wilson (245) QB1 Cam Newton (268) QB1 Dak Prescott (67) QB1 Jalen Hurts (115) QB1 Daniel Jones (165) QB1 Ryan Fitzpatrick (212)
@@ -49,17 +50,13 @@ WR4 Tim Patrick (263) WR4 - WR4 Byron Pringle (230) WR4 - WR4 - WR4 Christian Ki
 TE1 Noah Fant (106) TE1 Jared Cook (247) TE1 Travis Kelce (4) TE1 Darren Waller (36) TE1 George Kittle (37) TE1 Maxx Williams (331) TE1 Tyler Higbee (143) TE1 Gerald Everett (249)
 TE2 Albert Okwuegbunam (332) TE2 Donald Parham (312) TE2 - TE2 Foster Moreau (334) TE2 - TE2 - TE2 Brycen Hopkins (333) TE2 Will Dissly (323)
 K Brandon McManus (184) K Michael Badgley (357) K Harrison Butker (181) K Daniel Carlson (223) K Robbie Gould (288) K Matt Prater (192) K Matt Gay (187) K Jason Myers (183)`;
-console.log(rawDepth.replace(/\n/g, "").split(")"));
+//console.log(rawDepth.replace(/\n/g, "").split(")"));
 export const depth = rawDepth
   .replace(/\n/g, "")
-  .replace(/RB3 - /g, "")
-  .replace(/QB2 - /g, "")
-  .replace(/WR3 - /g, "")
-  .replace(/WR4 - /g, "")
-  .replace(/TE2 - /g, "")
-  .replace(/-RB1/g, "RB1")
-  .replace(/-K/g, "K")
-  .replace(/-TE/g, "TE")
+  .replace(
+    /QB1 -|QB2 -|RB1 -|RB2 -|RB3 -|RB4 -|WR1 -|WR2 -|WR3 -|WR4 -|TE1 -|TE2 -|K -/g,
+    ""
+  )
   .split(")")
   .reduce((valid, str) => {
     const split = str.split("(");
@@ -71,9 +68,20 @@ export const depth = rawDepth
       depth === "K" ? 1 : parseInt(get(depth.match(/[0-9]$/), `[0]`));
     const pos = depth === "K" ? "K" : depth.slice(0, depth.length - 1);
     if (name !== "") {
-      valid.push({ depth, depthRank, name, depthPos, pos });
+      valid.push({
+        depth,
+        depthRank,
+        name: name.replace(/TE1|RB1/, "").trim(),
+        depthPos,
+        pos,
+        slug: slugifyTitle(`${name} ${pos}`)
+      });
     }
 
     return valid;
-  }, []);
-console.log(depth);
+  }, [])
+  .map((player) => {
+    return {
+      ...player
+    };
+  });

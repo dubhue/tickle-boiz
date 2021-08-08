@@ -87,7 +87,8 @@ const rawDynasty = `1. (RB1) Christian McCaffrey, CAR 2017-1 25-3 81. (RB25) Myl
 
 const _dynasty = rawDynasty.split(numero);
 
-export const slugifyTitle = (str) => slugify(str, { lower: true, strict: true });
+export const slugifyTitle = (str) =>
+  slugify(str, { lower: true, strict: true });
 
 export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
   const _posRank = str.match(parens);
@@ -104,7 +105,7 @@ export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
   const age = details[2].split("-");
   const draftRound = exp[1] === "U" ? 8 : parseInt(exp[1]);
   const team = get(nfl, `hash[${short}]`);
-  
+
   return {
     pos,
     name,
@@ -113,8 +114,7 @@ export const dynasty = _dynasty.slice(1, _dynasty.length).map((str) => {
     draftYear: parseInt(exp[0]),
     draftRound,
     age: parseInt(age[0]) + parseInt(age[1]) / 12,
-    team
+    team,
+    slug: slugifyTitle(name + " " + pos)
   };
 });
-
-

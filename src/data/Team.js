@@ -190,6 +190,7 @@ export class Teams {
     this.list = list;
     this.length = list.length;
     this.hash = getHashTable(list, `short`);
+    this.slugs = getHashTable(list, `slug`);
   }
 }
 
