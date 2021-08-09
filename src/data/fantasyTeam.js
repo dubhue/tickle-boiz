@@ -45,3 +45,5 @@ export class FantasyTeam {
     });
   }
 }
+
+export const myTeam = new FantasyTeam({teamName: ""})
