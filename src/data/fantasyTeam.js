@@ -1,4 +1,5 @@
 import get from "lodash/get";
+import { Player } from "./Player";
 
 const JONATHAN_TAYLOR = {
   name: "Jonathan Taylor",
@@ -33,17 +34,44 @@ export class FantasyTeam {
     this.teamName = get(team, `teamName`);
     this.roster = get(team, `roster`, {
       QB: null,
-      RB1: JONATHAN_TAYLOR,
-      RB2: null,
-      WR1: null,
-      WR2: null,
+      RB: [],
+      WR: [],
       TE: null,
       FLEX: null,
       "D/ST": null,
       K: null,
-      BENCH: [null, null, null, null, null]
+      BENCH: []
     });
+    this.length = 0;
+  }
+
+  draft(player) {
+    const pos = get(player, `pos`);
+    const isPosPlayer = pos.match(/^RB$|^WR$/);
+    const curPos = this.roster[pos];
+    if (this.length) {
+    } else {
+      curPos.push(player);
+      this.length = this.length + 1;
+    }
+  }
+  render() {
+    const players = Object.keys(this.roster).reduce((all, data) => {
+      if (this.data instanceof Player) {
+        all.push(data);
+      }
+      if (Array.isArray(data)) {
+        data.forEach((p) => {
+          if (p instanceof Player) {
+            all.push(p);
+          } else {
+            console.log(p);
+          }
+        });
+      }
+      return all;
+    }, []);
   }
 }
 
-export const myTeam = new FantasyTeam({teamName: ""})
+export const myTeam = new FantasyTeam({ teamName: "" });
