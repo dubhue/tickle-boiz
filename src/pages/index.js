@@ -23,6 +23,7 @@ const IndexPage = () => {
     K: null,
     BENCH: []
   });
+  const [budget, setBudget] = useState(200);
   const edges = [...top300, ...dynasty, ...keepers, ...depth];
   //console.log(edges);
   const filtered = edges.reduce((hash, data) => {
@@ -46,7 +47,13 @@ const IndexPage = () => {
   const list = get(players, `list`, []);
   //players.mergeData(dynasty);
   //console.log(depth);
-  const myTeam = new FantasyTeam({ teamName: "Monkies" }, roster, setRoster);
+  const myTeam = new FantasyTeam(
+    { teamName: "Monkies" },
+    roster,
+    setRoster,
+    budget,
+    setBudget
+  );
   console.log("myTeam:", myTeam);
   useEffect(() => {
     myTeam.draft(JONATHAN_TAYLOR);

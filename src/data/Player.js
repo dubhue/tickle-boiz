@@ -15,13 +15,13 @@ export class Player {
     const depth = get(node, `depthPos`, get(node, `depth`));
     const isWr = pos.match(/^WR$/);
     const nameSplit = typeof name === "string" && name.split(" ");
-    const shortName = `${nameSplit[0].slice(0, 1)}. ${
-      nameSplit[1]
-    }`;
+    const shortName = `${nameSplit[0].slice(0, 1)}. ${nameSplit[1]}`;
+    const value = get(node, `value`);
+    const draftCost = get(node, `draftCost`, value);
     this.name = name;
     this.posRank = posRank;
     this.pos = pos;
-    this.value = get(node, `value`);
+    this.value = value;
     this.team = short ? get(nfl, `hash[${short}]`) : get(nfl, `slugs[${slug}]`);
     this.id = slugifyTitle(`${name}, ${short}`);
     this.draftYear = draftYear;
@@ -43,6 +43,7 @@ export class Player {
     this.slug = slug;
     this.depth = depth;
     this.shortName = shortName;
+    this.draftCost = draftCost;
   }
 }
 

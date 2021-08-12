@@ -4,12 +4,13 @@ import { Player } from "./Player";
 const isPosPlayer = (pos) => typeof pos === "string" && pos.match(/^RB$|^WR$/);
 
 export class FantasyTeam {
-  constructor(team, roster, setRoster) {
+  constructor(team, roster, setRoster, budget, setBudget) {
     this.teamName = get(team, `teamName`);
     this.roster = roster;
     this.setRoster = setRoster;
     this.length = 0;
-    this.budget = 200;
+    this.budget = budget;
+    this.setBudget = setBudget;
   }
   incrementLength(increment = 1) {
     this.length = this.length + increment;
@@ -28,7 +29,7 @@ export class FantasyTeam {
         });
         if (curPos.length <= 1 && noMatch) {
           curPos.push(player);
-          this.budget = this.budget - get(player, `draftCost`, 0);
+          this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
         } else {
           this.flex(player, noMatch);
@@ -38,6 +39,7 @@ export class FantasyTeam {
           this.flex(player);
         } else {
           prev[pos] = player;
+          this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
         }
       }
@@ -69,6 +71,7 @@ export class FantasyTeam {
     } else {
       if (noMatch) {
         this.roster.FLEX = player;
+        this.setBudget((prev) => prev - get(player, `draftCost`, 0));
         this.length = this.length + 1;
       }
     }
