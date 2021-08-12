@@ -10,8 +10,9 @@ import {
 } from "react-icons/fc";
 import { Row, Col, Table } from "react-bootstrap";
 import get from "lodash/get";
+import { FantasyTeam } from "../data/fantasyTeam";
 
-const PlayerList = ({ list }) => {
+const PlayerList = ({ list, myTeam }) => {
   return (
     <Table>
       <thead>
@@ -22,6 +23,7 @@ const PlayerList = ({ list }) => {
           <th>Round</th>
           <td>Projection</td>
           <th>Icons</th>
+          <th>Draft</th>
         </tr>
       </thead>
       <tbody>
@@ -92,6 +94,18 @@ const PlayerList = ({ list }) => {
                         </Col>
                       ) : null}
                     </Row>
+                  </td>
+                  <td>
+                    <button
+                      onClick={() => {
+                        if (myTeam instanceof FantasyTeam) {
+                          myTeam.draft(player);
+                        } else {
+                          console.log(myTeam);
+                        }
+                      }}>
+                      Draft
+                    </button>
                   </td>
                 </tr>
               );

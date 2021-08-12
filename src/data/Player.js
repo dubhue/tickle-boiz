@@ -14,6 +14,10 @@ export class Player {
     const slug = slugifyTitle(name + " " + pos);
     const depth = get(node, `depthPos`, get(node, `depth`));
     const isWr = pos.match(/^WR$/);
+    const nameSplit = typeof name === "string" && name.split(" ");
+    const shortName = `${nameSplit[0].slice(0, 1)}. ${
+      nameSplit[1]
+    }`;
     this.name = name;
     this.posRank = posRank;
     this.pos = pos;
@@ -38,6 +42,7 @@ export class Player {
     this.isKeeper = get(node, `isKeeper`, false);
     this.slug = slug;
     this.depth = depth;
+    this.shortName = shortName;
   }
 }
 

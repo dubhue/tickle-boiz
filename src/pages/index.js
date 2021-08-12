@@ -5,14 +5,24 @@ import Seo from "../components/seo";
 import { top300 } from "../data/top300";
 import { Players } from "../data/Player";
 import { dynasty, slugifyTitle } from "../data/dynasty";
-import { keepers } from "../data/keepers";
+import { JONATHAN_TAYLOR, keepers } from "../data/keepers";
 import { depth } from "../data/depth";
-
 import PlayerList from "../components/Players";
-import { myTeam } from "../data/fantasyTeam";
+import { FantasyTeam } from "../data/fantasyTeam";
 import Roster from "../components/Roster";
+import { useState, useEffect } from "react";
 
 const IndexPage = () => {
+  const [roster, setRoster] = useState({
+    QB: null,
+    RB: [],
+    WR: [],
+    TE: null,
+    FLEX: null,
+    "D/ST": null,
+    K: null,
+    BENCH: []
+  });
   const edges = [...top300, ...dynasty, ...keepers, ...depth];
   //console.log(edges);
   const filtered = edges.reduce((hash, data) => {
@@ -36,42 +46,20 @@ const IndexPage = () => {
   const list = get(players, `list`, []);
   //players.mergeData(dynasty);
   //console.log(depth);
-  myTeam.draft({
-    name: "Jonathan Taylor",
-    posRank: 8,
-    pos: "RB",
-    value: 45,
-    team: {
-      short: "IND",
-      full: "Indianapolis Colts",
-      bye: 14
-    },
-    id: "jonathan-taylor-ind",
-    draftYear: 2020,
-    draftRound: 2,
-    age: 22.583333333333332,
-    icons: {
-      star: true,
-      rookie: false,
-      goldenAge: false,
-      starter: true,
-      backup: false,
-      veteran: false,
-      youngin: true
-    },
-    isKeeper: true,
-    slug: "jonathan-taylor-rb",
-    depth: 1
-  });
+  const myTeam = new FantasyTeam({ teamName: "Monkies" }, roster, setRoster);
+  console.log("myTeam:", myTeam);
+  useEffect(() => {
+    myTeam.draft(JONATHAN_TAYLOR);
+  }, []);
   return (
     <Layout>
       <Seo title="Home" />
       {console.log(players)}
       <div>
-        My team
+        My team ${myTeam.budget}
         <Roster team={myTeam} />
       </div>
-      <PlayerList list={list} />
+      <PlayerList list={list} myTeam={myTeam} />
     </Layout>
   );
 };

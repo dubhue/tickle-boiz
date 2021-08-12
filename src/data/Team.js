@@ -195,7 +195,7 @@ export class Teams {
 }
 
 export const getHashTable = (arr, param) => {
-  return arr && arr.length
+  return Array.isArray(arr) && arr.length
     ? arr.reduce((hash, p) => {
         const slug = get(p, param);
         if (typeof slug !== "undefined") {
