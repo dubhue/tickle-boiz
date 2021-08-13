@@ -8,17 +8,28 @@ const Wrap = styled(Container)`
   text-transform: uppercase;
 `;
 
-const RosterSlot = ({ name, short, bye, pos }) => {
+const RosterSlot = ({ name, short, bye, pos, draftCost }) => {
   //console.log(name, short, bye, pos);
   return pos ? (
     <Row>
-      <Col xs="auto" style={{ fontWeight: "bold" }}>
+      <Col
+        xs="auto"
+        style={{ fontSize: ".8rem", padding: 0, fontWeight: "bold" }}>
         {pos}
       </Col>
       <Col style={{ fontSize: ".8rem" }}>
         {name && short ? `${name}, ${short}` : "_________"}
       </Col>
-      {bye ? <Col xs="auto">{bye}</Col> : null}
+      {draftCost ? (
+        <Col xs="auto" style={{ fontSize: ".8rem", color: "red", padding: 0 }}>
+          ${draftCost}
+        </Col>
+      ) : null}
+      {bye ? (
+        <Col xs="auto" style={{ fontSize: ".8rem" }}>
+          {bye}
+        </Col>
+      ) : null}
     </Row>
   ) : null;
 };
@@ -46,6 +57,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${QB}.team.bye`)}
                 name={get(roster, `${QB}.shortName`)}
                 short={get(roster, `${QB}.team.short`)}
+                draftCost={get(roster, `${QB}.draftCost`)}
               />
             </Col>
             <Col>
@@ -54,6 +66,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${RB1}.team.bye`)}
                 name={get(roster, `${RB1}.shortName`)}
                 short={get(roster, `${RB1}.team.short`)}
+                draftCost={get(roster, `${RB1}.draftCost`)}
               />
             </Col>
             <Col>
@@ -62,6 +75,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${RB2}.team.bye`)}
                 name={get(roster, `${RB2}.shortName`)}
                 short={get(roster, `${RB2}.team.short`)}
+                draftCost={get(roster, `${RB2}.draftCost`)}
               />
             </Col>
             <Col>
@@ -70,6 +84,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${WR1}.team.bye`)}
                 name={get(roster, `${WR1}.shortName`)}
                 short={get(roster, `${WR1}.team.short`)}
+                draftCost={get(roster, `${WR1}.draftCost`)}
               />
             </Col>
             <Col>
@@ -78,6 +93,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${WR2}.team.bye`)}
                 name={get(roster, `${WR2}.shortName`)}
                 short={get(roster, `${WR2}.team.short`)}
+                draftCost={get(roster, `${WR2}.draftCost`)}
               />
             </Col>
           </Row>
@@ -90,6 +106,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${TE}.team.bye`)}
                 name={get(roster, `${TE}.shortName`)}
                 short={get(roster, `${TE}.team.short`)}
+                draftCost={get(roster, `${TE}.draftCost`)}
               />
             </Col>
             <Col>
@@ -98,6 +115,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${FLEX}.team.bye`)}
                 name={get(roster, `${FLEX}.shortName`)}
                 short={get(roster, `${FLEX}.team.short`)}
+                draftCost={get(roster, `${FLEX}.draftCost`)}
               />
             </Col>
             <Col>
@@ -106,6 +124,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${D_ST}.team.bye`)}
                 name={get(roster, `${D_ST}.shortName`)}
                 short={get(roster, `${D_ST}.team.short`)}
+                draftCost={get(roster, `${D_ST}.draftCost`)}
               />
             </Col>
             <Col>
@@ -114,6 +133,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${K}.team.bye`)}
                 name={get(roster, `${K}.shortName`)}
                 short={get(roster, `${K}.team.short`)}
+                draftCost={get(roster, `${K}.draftCost`)}
               />
             </Col>
           </Row>
@@ -127,6 +147,7 @@ const Roster = ({ team }) => {
                   bye={get(roster, `${BENCH}[0].team.bye`)}
                   name={get(roster, `${BENCH}[0].shortName`)}
                   short={get(roster, `${BENCH}[0].team.short`)}
+                  draftCost={get(roster, `${BENCH}[0].draftCost`)}
                 />
               </Row>
             </Col>
@@ -136,6 +157,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${BENCH}[1].team.bye`)}
                 name={get(roster, `${BENCH}[1].shortName`)}
                 short={get(roster, `${BENCH}[1].team.short`)}
+                draftCost={get(roster, `${BENCH}[1].draftCost`)}
               />
             </Col>
             <Col>
@@ -144,6 +166,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${BENCH}[2].team.bye`)}
                 name={get(roster, `${BENCH}[2].shortName`)}
                 short={get(roster, `${BENCH}[2].team.short`)}
+                draftCost={get(roster, `${BENCH}[2].draftCost`)}
               />
             </Col>
             <Col>
@@ -152,6 +175,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${BENCH}[3].team.bye`)}
                 name={get(roster, `${BENCH}[3].shortName`)}
                 short={get(roster, `${BENCH}[3].team.short`)}
+                draftCost={get(roster, `${BENCH}[3].draftCost`)}
               />
             </Col>
             <Col>
@@ -160,6 +184,7 @@ const Roster = ({ team }) => {
                 bye={get(roster, `${BENCH}[4].team.bye`)}
                 name={get(roster, `${BENCH}[4].shortName`)}
                 short={get(roster, `${BENCH}[4].team.short`)}
+                draftCost={get(roster, `${BENCH}[4].draftCost`)}
               />
             </Col>
           </Row>
