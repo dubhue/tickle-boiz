@@ -40,7 +40,7 @@ export class FantasyTeam {
           return prev;
         }
       } else {
-        console.log(curPos);
+        //console.log(curPos);
         if (curPos instanceof Player) {
           this.flex(player);
           return prev;

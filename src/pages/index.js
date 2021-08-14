@@ -51,7 +51,7 @@ const IndexPage = () => {
   );
   const list = get(players, `list`, []);
   //players.mergeData(dynasty);
-  console.log(players);
+  //console.log(players);
   const myTeam = new FantasyTeam(
     { teamName: "Monkies" },
     roster,
@@ -65,7 +65,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      {console.log(players)}
       <div>
         My team ${myTeam.budget}
         <Roster team={myTeam} />
