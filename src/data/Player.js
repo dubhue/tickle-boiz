@@ -13,9 +13,11 @@ export class Player {
     const age = get(node, `age`);
     const slug = slugifyTitle(name + " " + pos);
     const depth = get(node, `depthPos`, get(node, `depth`));
-    const isWr = pos.match(/^WR$/);
+    const isWr = typeof pos === "string" && pos.match(/^WR$/);
     const nameSplit = typeof name === "string" && name.split(" ");
-    const shortName = `${nameSplit[0].slice(0, 1)}. ${nameSplit[1]}`;
+    const shortName =
+      typeof name === "string" &&
+      `${nameSplit[0].slice(0, 1)}. ${nameSplit[1]}`;
     const value = get(node, `value`);
     const draftCost = get(node, `draftCost`, value);
     this.name = name;

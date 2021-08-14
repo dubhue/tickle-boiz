@@ -16,7 +16,9 @@ export class FantasyTeam {
     this.length = this.length + increment;
   }
   draft(player) {
-    //console.log("drafting:", player);
+    const curBudget = this.budget;
+    const draftCost = get(player, `draftCost`);
+    const validBudget = curBudget >= draftCost;
     const pos = get(player, `pos`);
     this.setRoster((prev) => {
       const curPos = get(prev, `[${pos}]`);
@@ -31,19 +33,25 @@ export class FantasyTeam {
           curPos.push(player);
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
+          console.log(`successfully drafted ${player.name}`);
+          return { ...prev, [pos]: curPos };
         } else {
           this.flex(player, noMatch);
+          return prev;
         }
       } else {
+        console.log(curPos);
         if (curPos instanceof Player) {
           this.flex(player);
+          return prev;
         } else {
           prev[pos] = player;
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
+          console.log(`successfully drafted ${player.name}`);
+          return { ...prev, [pos]: player };
         }
       }
-      return { ...prev, [pos]: curPos };
     });
 
     // if (this.length) {
@@ -103,21 +111,21 @@ export class FantasyTeam {
     }
   }
 
-  render() {
-    const players = Object.keys(this.roster).reduce((all, data) => {
-      if (this.data instanceof Player) {
-        all.push(data);
-      }
-      if (Array.isArray(data)) {
-        data.forEach((p) => {
-          if (p instanceof Player) {
-            all.push(p);
-          } else {
-            console.log(p);
-          }
-        });
-      }
-      return all;
-    }, []);
-  }
+  // render() {
+  //   const players = Object.keys(this.roster).reduce((all, data) => {
+  //     if (this.data instanceof Player) {
+  //       all.push(data);
+  //     }
+  //     if (Array.isArray(data)) {
+  //       data.forEach((p) => {
+  //         if (p instanceof Player) {
+  //           all.push(p);
+  //         } else {
+  //           console.log(p);
+  //         }
+  //       });
+  //     }
+  //     return all;
+  //   }, []);
+  // }
 }

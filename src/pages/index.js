@@ -5,7 +5,7 @@ import Seo from "../components/seo";
 import { top300 } from "../data/top300";
 import { Players } from "../data/Player";
 import { dynasty, slugifyTitle } from "../data/dynasty";
-import { JONATHAN_TAYLOR, keepers } from "../data/keepers";
+import { keepers } from "../data/keepers";
 import { depth } from "../data/depth";
 import PlayerList from "../components/Players";
 import { FantasyTeam } from "../data/fantasyTeam";
@@ -24,7 +24,12 @@ const IndexPage = () => {
     BENCH: []
   });
   const [budget, setBudget] = useState(200);
-  const edges = [...top300, ...dynasty, ...keepers, ...depth];
+  const edges = [
+    ...top300,
+    ...dynasty,
+    //...keepers,
+    ...depth
+  ];
   //console.log(edges);
   const filtered = edges.reduce((hash, data) => {
     const slug = get(
@@ -46,7 +51,7 @@ const IndexPage = () => {
   );
   const list = get(players, `list`, []);
   //players.mergeData(dynasty);
-  //console.log(depth);
+  console.log(players);
   const myTeam = new FantasyTeam(
     { teamName: "Monkies" },
     roster,
@@ -54,10 +59,9 @@ const IndexPage = () => {
     budget,
     setBudget
   );
-  console.log("myTeam:", myTeam);
-  useEffect(() => {
-    myTeam.draft(JONATHAN_TAYLOR);
-  }, []);
+  // useEffect(() => {
+  //   myTeam.draft(players.hash["jonathan-taylor-rb"]);
+  // }, []);
   return (
     <Layout>
       <Seo title="Home" />
@@ -66,7 +70,7 @@ const IndexPage = () => {
         My team ${myTeam.budget}
         <Roster team={myTeam} />
       </div>
-      <PlayerList list={list} myTeam={myTeam} />
+      <PlayerList list={list} myTeam={myTeam} budget={myTeam.budget} />
     </Layout>
   );
 };
