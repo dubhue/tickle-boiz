@@ -11,6 +11,7 @@ import PlayerList from "../components/Players";
 import { FantasyTeam } from "../data/fantasyTeam";
 import Roster from "../components/Roster";
 import { useState, useEffect } from "react";
+import ToggleSwitch from "../components/ToggleSwitch";
 
 const IndexPage = () => {
   const [roster, setRoster] = useState({
@@ -24,12 +25,8 @@ const IndexPage = () => {
     BENCH: []
   });
   const [budget, setBudget] = useState(200);
-  const edges = [
-    ...top300,
-    ...dynasty,
-    //...keepers,
-    ...depth
-  ];
+  const [toggleDrafted, setToggleDrafted] = useState(true);
+  const edges = [...top300, ...dynasty, ...keepers, ...depth];
   //console.log(edges);
   const filtered = edges.reduce((hash, data) => {
     const slug = get(
@@ -59,9 +56,12 @@ const IndexPage = () => {
     budget,
     setBudget
   );
-  // useEffect(() => {
-  //   myTeam.draft(players.hash["jonathan-taylor-rb"]);
-  // }, []);
+
+  const handleToggle = () => setToggleDrafted(!toggleDrafted);
+
+  useEffect(() => {
+    myTeam.draft(players.hash["jonathan-taylor-rb"]);
+  }, []);
   return (
     <Layout>
       <Seo title="Home" />
@@ -69,7 +69,17 @@ const IndexPage = () => {
         My team ${myTeam.budget}
         <Roster team={myTeam} />
       </div>
-      <PlayerList list={list} myTeam={myTeam} budget={myTeam.budget} />
+      <ToggleSwitch
+        label={"Show Unavailable"}
+        toggle={toggleDrafted}
+        setter={handleToggle}
+      />
+      <PlayerList
+        list={list}
+        myTeam={myTeam}
+        budget={myTeam.budget}
+        toggle={toggleDrafted}
+      />
     </Layout>
   );
 };

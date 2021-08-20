@@ -14,7 +14,7 @@ import get from "lodash/get";
 import { FantasyTeam } from "../data/fantasyTeam";
 import { useState } from "react";
 
-const PlayerList = ({ list, myTeam, budget }) => {
+const PlayerList = ({ list, myTeam, budget, toggle }) => {
   const handleDraft = (player) => {
     if (myTeam instanceof FantasyTeam) {
       myTeam.draft(player);

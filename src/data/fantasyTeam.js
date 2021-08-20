@@ -33,7 +33,8 @@ export class FantasyTeam {
           curPos.push(player);
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
-          console.log(`successfully drafted ${player.name}`);
+          player.changeDraftStatus();
+          console.log(`successfully drafted ${player.name}`,player.isDraftable);
           return { ...prev, [pos]: curPos };
         } else {
           this.flex(player, noMatch);
@@ -48,7 +49,8 @@ export class FantasyTeam {
           prev[pos] = player;
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
-          console.log(`successfully drafted ${player.name}`);
+          player.changeDraftStatus();
+          console.log(`successfully drafted ${player.name}`,player.isDraftable);
           return { ...prev, [pos]: player };
         }
       }

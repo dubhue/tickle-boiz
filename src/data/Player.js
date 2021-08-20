@@ -20,6 +20,7 @@ export class Player {
       `${nameSplit[0].slice(0, 1)}. ${nameSplit[1]}`;
     const value = get(node, `value`);
     const draftCost = get(node, `draftCost`, value);
+    const isKeeper = get(node, `isKeeper`, false);
     this.name = name;
     this.posRank = posRank;
     this.pos = pos;
@@ -41,11 +42,16 @@ export class Player {
       veteran: 2021 - draftYear >= 6,
       youngin: age < 24
     };
-    this.isKeeper = get(node, `isKeeper`, false);
+    this.isKeeper = isKeeper;
     this.slug = slug;
     this.depth = depth;
     this.shortName = shortName;
     this.draftCost = draftCost;
+    this.isDraftable = !isKeeper;
+  }
+  changeDraftState() {
+    const draftStatus = this.isDraftable;
+    this.isDraftable = !draftStatus;
   }
 }
 
