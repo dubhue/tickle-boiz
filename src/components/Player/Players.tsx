@@ -11,7 +11,7 @@ import {
 import { FaTimesCircle } from "react-icons/fa";
 import { Row, Col, Table } from "react-bootstrap";
 import get from "lodash/get";
-import { FantasyTeam } from "../classes/fantasyTeam";
+import { FantasyTeam } from "../../classes/fantasyTeam";
 import { useState } from "react";
 
 const PlayerList = ({ list, myTeam, budget, toggle }) => {

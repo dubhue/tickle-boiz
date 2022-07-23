@@ -2,60 +2,39 @@ import * as React from "react";
 import get from "lodash/get";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { top300 } from "../data/top300";
 import { Player, Players } from "../data/Player";
-import { dynasty, slugifyTitle } from "../data/dynasty";
 import { keepers } from "../data/keepers";
-import { depth } from "../data/depth";
-import PlayerList from "../components/Players";
-import { FantasyTeam } from "../classes/fantasyTeam";
+import PlayerList from "../components/Player/Players";
+//import { FantasyTeam } from "../classes/fantasyTeam";
 import Roster from "../components/Roster/Roster";
 import { useState, useEffect } from "react";
 import ToggleSwitch from "../components/ToggleSwitch";
 import { Col, Container, Row } from "react-bootstrap";
+import { byeHash, getByeWeek } from "../data/teams/logic";
+import { allTeams } from "../data/teams/data";
+import { nfl, Team } from "../data/teams/classes";
+import { dynasty, DynastyAttributes } from "../data/cheatSheets/dynasty/logic";
+import { depth, DepthAttributes } from "../data/cheatSheets/depthChart/logic";
+import { top300, Top300Attributes } from "../data/cheatSheets/top300/logic";
 
 export type PlayerList = Player[] | null;
 
+const allHash = [...dynasty, ...depth, ...top300].reduce((unq, info) => {
+  if (!unq[info.slug]) {
+    unq[info.slug] = info;
+  } else {
+    const old = unq[info.slug];
+    unq[info.slug] = { ...old, ...info };
+  }
+  return unq;
+}, {});
+const combined = Object.keys(allHash).map((k) => allHash[k]);
+const allPlayers = combined.map((p) => new Player(p));
+
+
 const IndexPage = () => {
   const [team, setTeam] = useState<FantasyTeam>();
-  const [budget, setBudget] = useState(200);
-  const [toggleDrafted, setToggleDrafted] = useState(true);
-  const edges = [...top300, ...dynasty, ...keepers, ...depth];
-  //console.log(edges);
-  const filtered = edges.reduce((hash, data) => {
-    const slug = get(
-      data,
-      `slug`,
-      slugifyTitle(`${get(data, `name`)}, ${get(data, `pos`)}`)
-    );
-    if (!hash[slug]) {
-      hash[slug] = data;
-    } else {
-      const old = hash[slug];
-      const updated = { ...old, ...data };
-      hash[slug] = updated;
-    }
-    return hash;
-  }, {});
-  const players = new Players(
-    Object.keys(filtered).map((key) => filtered[key])
-  );
-  const list = get(players, `list`, []);
-  //players.mergeData(dynasty);
-  //console.log(players);
-  const myTeam = new FantasyTeam(
-    { teamName: "Monkies" },
-    roster,
-    setRoster,
-    budget,
-    setBudget
-  );
 
-  const handleToggle = () => setToggleDrafted(!toggleDrafted);
-
-  useEffect(() => {
-    myTeam.draft(players.hash["jonathan-taylor-rb"]);
-  }, []);
   return (
     <Layout>
       <Seo title="Home" />
@@ -65,6 +44,13 @@ const IndexPage = () => {
             {/* <Roster team={myTeam} /> */}
           </Col>
           <Col xs={12} sm={10} md={8}>
+            {allPlayers.map((p) => (
+              <Row key={p.slug} style={{ borderBottom: `1px solid gray` }}>
+                <Col>{p.name}</Col>
+                <Col>{p.pos}</Col>
+                <Col>{p.posRank}</Col>
+              </Row>
+            ))}
             {/* <PlayerList
               list={list}
               myTeam={myTeam}

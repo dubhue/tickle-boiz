@@ -1,6 +1,8 @@
 import get from "lodash/get";
 import { slotConfiguration } from "../components/Roster/config";
 import { Player } from "../data/Player";
+
+/*
 import { TeamRoster } from "../pages";
 
 export class FantasyTeamRoster {
@@ -144,3 +146,5 @@ export class FantasyTeam {
   //   }, []);
   // }
 }
+
+*/

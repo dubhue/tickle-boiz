@@ -1,6 +1,6 @@
 import get from "lodash/get";
-import { getHashTable, nfl } from "./Team";
-import { slugifyTitle } from "./dynasty";
+import { nfl } from "./teams/classes";
+import { getHashTable, slugifyTitle } from "./teams/logic";
 
 export class Player {
   constructor(node) {
