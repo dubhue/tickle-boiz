@@ -1,9 +1,16 @@
 import get from "lodash/get";
-import { Player } from "./Player";
+import { slotConfiguration } from "../components/Roster/config";
+import { Player } from "../data/Player";
+import { TeamRoster } from "../pages";
 
-const isPosPlayer = (pos) => typeof pos === "string" && pos.match(/^RB$|^WR$/);
+export class FantasyTeamRoster {
+  roster: ;
+  constructor(config: typeof slotConfiguration) {}
+}
 
 export class FantasyTeam {
+  teamName: string;
+  roster: TeamRoster;
   constructor(team, roster, setRoster, budget, setBudget) {
     this.teamName = get(team, `teamName`);
     this.roster = roster;
@@ -34,7 +41,10 @@ export class FantasyTeam {
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
           player.changeDraftStatus();
-          console.log(`successfully drafted ${player.name}`,player.isDraftable);
+          console.log(
+            `successfully drafted ${player.name}`,
+            player.isDraftable
+          );
           return { ...prev, [pos]: curPos };
         } else {
           this.flex(player, noMatch);
@@ -50,7 +60,10 @@ export class FantasyTeam {
           this.setBudget((prev) => prev - get(player, `draftCost`, 0));
           this.incrementLength();
           player.changeDraftStatus();
-          console.log(`successfully drafted ${player.name}`,player.isDraftable);
+          console.log(
+            `successfully drafted ${player.name}`,
+            player.isDraftable
+          );
           return { ...prev, [pos]: player };
         }
       }

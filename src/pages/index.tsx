@@ -3,27 +3,21 @@ import get from "lodash/get";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import { top300 } from "../data/top300";
-import { Players } from "../data/Player";
+import { Player, Players } from "../data/Player";
 import { dynasty, slugifyTitle } from "../data/dynasty";
 import { keepers } from "../data/keepers";
 import { depth } from "../data/depth";
 import PlayerList from "../components/Players";
-import { FantasyTeam } from "../data/fantasyTeam";
-import Roster from "../components/Roster";
+import { FantasyTeam } from "../classes/fantasyTeam";
+import Roster from "../components/Roster/Roster";
 import { useState, useEffect } from "react";
 import ToggleSwitch from "../components/ToggleSwitch";
+import { Col, Container, Row } from "react-bootstrap";
+
+export type PlayerList = Player[] | null;
 
 const IndexPage = () => {
-  const [roster, setRoster] = useState({
-    QB: null,
-    RB: [],
-    WR: [],
-    TE: null,
-    FLEX: null,
-    "D/ST": null,
-    K: null,
-    BENCH: []
-  });
+  const [team, setTeam] = useState<FantasyTeam>();
   const [budget, setBudget] = useState(200);
   const [toggleDrafted, setToggleDrafted] = useState(true);
   const edges = [...top300, ...dynasty, ...keepers, ...depth];
@@ -65,7 +59,22 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div>
+      <Container fluid>
+        <Row>
+          <Col xs={12} sm={2} md={4}>
+            {/* <Roster team={myTeam} /> */}
+          </Col>
+          <Col xs={12} sm={10} md={8}>
+            {/* <PlayerList
+              list={list}
+              myTeam={myTeam}
+              budget={myTeam.budget}
+              toggle={toggleDrafted}
+            /> */}
+          </Col>
+        </Row>
+      </Container>
+      {/* <div>
         My team ${myTeam.budget}
         <Roster team={myTeam} />
       </div>
@@ -79,7 +88,7 @@ const IndexPage = () => {
         myTeam={myTeam}
         budget={myTeam.budget}
         toggle={toggleDrafted}
-      />
+      /> */}
     </Layout>
   );
 };
