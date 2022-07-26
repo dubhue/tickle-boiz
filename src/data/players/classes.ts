@@ -58,8 +58,10 @@ export class Player {
     const _score =
       node.dynastyRank && node.depthRank && node.posRank
         ? (node.dynastyRank + node.depthRank + node.posRank) / 3
+        : node.posRank && node.depthRank
+        ? (node.posRank + node.depthRank) / 2
         : 0;
-        const score = Math.round(_score * 100) / 100
+    const score = Math.round(_score * 100) / 100;
     this.name = name;
     this.posRank = posRank;
     this.pos = pos;
