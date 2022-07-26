@@ -9,6 +9,7 @@ export interface Top300Attributes {
   short: string;
   value: number;
   slug: string;
+  top300Attributes?: true;
 }
 
 const _top300 = rawTop300.replace(/\n/g, "").split(numero);
@@ -36,5 +37,6 @@ export const top300: Top300Attributes[] = _top300
       short,
       value,
       slug: slugifyTitle(name + " " + pos),
+      top300Attributes: true
     };
   });

@@ -13,6 +13,9 @@ export interface DynastyAttributes {
   age: number;
   team: Team;
   slug: string;
+  dynastyAttributes?: true;
+  dynastyRank?: number;
+  rookieRank?: number
 }
 
 const _dynasty = rawDynasty.split(numero); //.split(/\n/); //(numero);
@@ -33,16 +36,26 @@ export const dynasty: DynastyAttributes[] = _dynasty
     const age = details.length > 2 ? details[2].split("-") : 0;
     const draftRound = exp[1] === "U" ? 8 : parseInt(exp[1]);
     const team = nfl.hash[short];
-
+    const year = parseInt(exp[0]);
+    const posRank = _posRank ? _posRank[0] : "";
+    const rank = parseInt(posRank.replace(/[^0-9.]/g,""));
+    //const rank = Array.isArray(_rank) ? _rank[0] : undefined
+    //console.log(posRank.match(/[^0-9.]/));
     return {
+      dynastyRank:
+        year !== new Date().getFullYear()
+          ? rank
+          : undefined,
       pos,
       name,
       short,
       id: slugifyTitle(name.trim() + ", " + short.trim()),
-      draftYear: parseInt(exp[0]),
+      draftYear: year,
       draftRound,
       age: parseInt(age[0]) + parseInt(age[1]) / 12,
       team,
       slug: slugifyTitle(name + " " + pos),
+      dynastyAttributes: true,
+      rookieRank: year === new Date().getFullYear() ? rank : undefined
     };
   });

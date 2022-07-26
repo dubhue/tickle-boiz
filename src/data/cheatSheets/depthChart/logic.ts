@@ -4,11 +4,12 @@ import { rawDepth } from "./data";
 
 export interface DepthAttributes {
   depth: string;
-  depthRank: string;
+  depthRank: number;
   name: string;
   depthPos: number;
   pos: string;
   slug: string;
+  depthAttributes?: true;
 }
 
 let arr: DepthAttributes[] = [];
@@ -21,7 +22,7 @@ export const depth = rawDepth
   .split(")")
   .reduce((valid, str) => {
     const split = str.split("(");
-    const depthRank = split[1];
+    const depthRank = parseInt(split[1]);
     const split2 = split[0].trim().split(" ");
     const depth = split2[0];
     const name = split2.slice(1, split2.length).join(" ");
@@ -36,6 +37,7 @@ export const depth = rawDepth
         depthPos,
         pos,
         slug: slugifyTitle(`${name} ${pos}`),
+        depthAttributes: true
       });
     }
 

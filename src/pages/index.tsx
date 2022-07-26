@@ -2,7 +2,8 @@ import * as React from "react";
 import get from "lodash/get";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { Player, Players } from "../data/Player";
+import { Players } from "../data/Player";
+import { Player } from "../data/players/classes";
 import { keepers } from "../data/keepers";
 import PlayerList from "../components/Player/Players";
 //import { FantasyTeam } from "../classes/fantasyTeam";
@@ -29,12 +30,19 @@ const allHash = [...dynasty, ...depth, ...top300].reduce((unq, info) => {
   return unq;
 }, {});
 const combined = Object.keys(allHash).map((k) => allHash[k]);
-const allPlayers = combined.map((p) => new Player(p));
-
+const allPlayers = combined.map((p) => {
+  return new Player(p);
+});
+const sorted = allPlayers.sort((a, b) => {
+  const aScore = a.score ? a.score : Infinity;
+  const bScore = b.score ? b.score : Infinity;
+  return aScore > bScore ? 1 : aScore < bScore ? -1 : 0;
+});
+//console.log(allPlayers);
 
 const IndexPage = () => {
-  const [team, setTeam] = useState<FantasyTeam>();
-
+  //const [team, setTeam] = useState<FantasyTeam>();
+  
   return (
     <Layout>
       <Seo title="Home" />
@@ -44,19 +52,21 @@ const IndexPage = () => {
             {/* <Roster team={myTeam} /> */}
           </Col>
           <Col xs={12} sm={10} md={8}>
-            {allPlayers.map((p) => (
+            {/* {sorted.map((p,i) => (
               <Row key={p.slug} style={{ borderBottom: `1px solid gray` }}>
+                <Col xs="auto">{i+1}</Col>
                 <Col>{p.name}</Col>
                 <Col>{p.pos}</Col>
-                <Col>{p.posRank}</Col>
+                <Col>{p.score}</Col>
               </Row>
-            ))}
+            ))} */}
             {/* <PlayerList
               list={list}
               myTeam={myTeam}
               budget={myTeam.budget}
               toggle={toggleDrafted}
             /> */}
+            <PlayerList players={sorted} />
           </Col>
         </Row>
       </Container>
