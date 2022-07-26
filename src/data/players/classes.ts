@@ -4,6 +4,8 @@ import { Top300Attributes } from "../cheatSheets/top300/logic";
 import { nfl, Team } from "../teams/classes";
 import { getHashTable, slugifyTitle } from "../teams/logic";
 
+const CURRENT_YEAR = 2022
+
 export interface PlayerAttributes
   extends DynastyAttributes,
     Top300Attributes,
@@ -68,11 +70,11 @@ export class Player {
           ? Array.isArray(pos.match(/^WR|RB$/) && posRank <= 10) ||
             (Array.isArray(pos.match(/^QB|TE$/)) && posRank <= 3)
           : false,
-      rookie: draftYear === 2021,
+      rookie: draftYear === CURRENT_YEAR,
       goldenAge: Math.floor(age) === 24,
       starter: depth === 1 || (isWr && depth === 2) ? true : false,
       backup: !isWr && depth >= 2,
-      veteran: 2021 - draftYear >= 6,
+      veteran: CURRENT_YEAR - draftYear >= 6,
       youngin: age < 24
     };
     this.isKeeper = isKeeper;
