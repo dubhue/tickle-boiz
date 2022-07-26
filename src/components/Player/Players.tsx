@@ -12,7 +12,7 @@ import { FaTimesCircle } from "react-icons/fa";
 import { Row, Col, Table } from "react-bootstrap";
 //import { FantasyTeam } from "../../classes/fantasyTeam";
 import { useState } from "react";
-import { Player } from "../../data/Player";
+import { Player } from "../../data/players/classes";
 
 const PlayerList = ({
   players,
@@ -127,6 +127,7 @@ const PlayerList = ({
           <th>Player</th>
           <th>Team</th>
           <th>Rank</th>
+          <th>Score</th>
           <th>Round</th>
           <td>Projection</td>
           <th>Icons</th>
@@ -163,6 +164,7 @@ const PlayerList = ({
                   <td>{`${name}, ${pos}`}</td>
                   <td>{team}</td>
                   <td>{rank}</td>
+                  <td>{player.score}</td>
                   <td>{round}</td>
                   <td>${value}</td>
                   <td>

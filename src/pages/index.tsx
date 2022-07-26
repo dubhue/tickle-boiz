@@ -34,9 +34,9 @@ const allPlayers = combined.map((p) => {
   return new Player(p);
 });
 const sorted = allPlayers.sort((a, b) => {
-  const aScore = a.score ? a.score : Infinity;
-  const bScore = b.score ? b.score : Infinity;
-  return aScore > bScore ? 1 : aScore < bScore ? -1 : 0;
+  const aScore = a.value ? a.value : 0;
+  const bScore = b.value ? b.value : 0;
+  return aScore < bScore ? 1 : aScore > bScore ? -1 : 0;
 });
 //console.log(allPlayers);
 

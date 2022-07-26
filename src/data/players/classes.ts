@@ -4,7 +4,7 @@ import { Top300Attributes } from "../cheatSheets/top300/logic";
 import { nfl, Team } from "../teams/classes";
 import { getHashTable, slugifyTitle } from "../teams/logic";
 
-const CURRENT_YEAR = 2022
+const CURRENT_YEAR = 2022;
 
 export interface PlayerAttributes
   extends DynastyAttributes,
@@ -34,7 +34,7 @@ export class Player {
   dynasty: boolean;
   depthRank: number;
   dynRank?: number;
-  score?: number
+  score?: number;
   constructor(node: PlayerAttributes) {
     //console.log(node)
     const name = node.name;
@@ -55,6 +55,11 @@ export class Player {
     const value = node.value;
     const draftCost = node.draftCost;
     const isKeeper = node.isKeeper;
+    const _score =
+      node.dynastyRank && node.depthRank && node.posRank
+        ? (node.dynastyRank + node.depthRank + node.posRank) / 3
+        : 0;
+        const score = Math.round(_score * 100) / 100
     this.name = name;
     this.posRank = posRank;
     this.pos = pos;
@@ -87,10 +92,7 @@ export class Player {
     this.top300 = node.top300Attributes ? true : false;
     this.depthRank = node.depthRank;
     this.dynRank = node.dynastyRank;
-    this.score =
-      node.dynastyRank && node.depthRank && node.posRank
-        ? (node.dynastyRank + node.depthRank + node.posRank) / 3
-        : undefined;
+    this.score = score;
   }
   changeDraftState() {
     const draftStatus = this.isDraftable;
