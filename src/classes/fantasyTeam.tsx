@@ -8,7 +8,7 @@ import { RosterSlotTypes } from "../components/Roster/types";
 export interface FantsyTeamConfig {
   name: string;
   roster: typeof slotConfiguration;
-  database: PlayerDatabase;
+  database: Player[];
 }
 
 const PositionGroup = ({ slot }: { slot: RosterSlot }) => {
@@ -29,7 +29,7 @@ const PositionGroup = ({ slot }: { slot: RosterSlot }) => {
 export class FantasyTeam {
   name: string;
   roster: FullRoster;
-  database: PlayerDatabase;
+  database: Player[];
   constructor(config: FantsyTeamConfig) {
     this.name = config.name;
     this.roster = new FullRoster(config.roster);
@@ -61,4 +61,3 @@ export class FantasyTeam {
     return this;
   }
 }
-/

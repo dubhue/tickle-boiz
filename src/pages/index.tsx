@@ -62,7 +62,9 @@ const IndexPage = () => {
       <Container fluid>
         <Row>
           <Col xs={12} sm={2} md={4}>
-            <TeamRoster team={team} setter={handleTeam} />
+            <TeamRoster
+              team={team} //setter={handleTeam}
+            />
           </Col>
           <Col xs={12} sm={10} md={8}>
             <PlayerList players={team.database} />
