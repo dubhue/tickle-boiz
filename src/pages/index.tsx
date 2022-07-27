@@ -1,7 +1,6 @@
 import * as React from "react";
 import get from "lodash/get";
 import Layout from "../components/layout/Layout";
-import { Players } from "../data/Player";
 import { Player } from "../data/players/classes";
 import { keepers } from "../data/keepers";
 import PlayerList from "../components/Player/Players";
@@ -17,6 +16,10 @@ import { dynasty, DynastyAttributes } from "../data/cheatSheets/dynasty/logic";
 import { depth, DepthAttributes } from "../data/cheatSheets/depthChart/logic";
 import { top300, Top300Attributes } from "../data/cheatSheets/top300/logic";
 import Seo from "../components/layout/Seo";
+import { FantasyTeam } from "../classes/fantasyTeam";
+import { slotConfiguration } from "../components/Roster/config";
+import TeamRoster from "../components/Roster/TeamRoster";
+import { RosterSlot } from "../components/Roster/classes";
 
 export type PlayerList = Player[] | null;
 
@@ -41,32 +44,29 @@ const sorted = allPlayers.sort((a, b) => {
 //console.log(allPlayers);
 
 const IndexPage = () => {
-  //const [team, setTeam] = useState<FantasyTeam>();
+  const [team, setTeam] = useState<FantasyTeam>(
+    new FantasyTeam({
+      name: "Talyor Made",
+      roster: slotConfiguration,
+      database: sorted
+    })
+  );
 
+  const handleTeam = (t: FantasyTeam) => {
+    setTeam(t);
+  };
+  team.draftPlayer("jonathan-taylor-rb", handleTeam);
+  console.log(team);
   return (
     <Layout>
       <Seo title="Tickle Boiz" />
       <Container fluid>
         <Row>
           <Col xs={12} sm={2} md={4}>
-            {/* <Roster team={myTeam} /> */}
+            <TeamRoster team={team} setter={handleTeam} />
           </Col>
           <Col xs={12} sm={10} md={8}>
-            {/* {sorted.map((p,i) => (
-              <Row key={p.slug} style={{ borderBottom: `1px solid gray` }}>
-                <Col xs="auto">{i+1}</Col>
-                <Col>{p.name}</Col>
-                <Col>{p.pos}</Col>
-                <Col>{p.score}</Col>
-              </Row>
-            ))} */}
-            {/* <PlayerList
-              list={list}
-              myTeam={myTeam}
-              budget={myTeam.budget}
-              toggle={toggleDrafted}
-            /> */}
-            <PlayerList players={sorted} />
+            <PlayerList players={team.database} />
           </Col>
         </Row>
       </Container>

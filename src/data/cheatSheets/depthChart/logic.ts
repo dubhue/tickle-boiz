@@ -13,7 +13,7 @@ export interface DepthAttributes {
 }
 
 let arr: DepthAttributes[] = [];
-export const depth = rawDepth
+export const depth: DepthAttributes[] = rawDepth
   .replace(/\n/g, "")
   .replace(
     /QB1 -|QB2 -|RB1 -|RB2 -|RB3 -|RB4 -|WR1 -|WR2 -|WR3 -|WR4 -|TE1 -|TE2 -|K -/g,

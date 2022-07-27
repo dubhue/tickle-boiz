@@ -1,4 +1,4 @@
-import { Player } from "../../data/Player";
+import { Player } from "../../data/players/classes";
 import { slotConfiguration } from "./config";
 import {
   FullFantasyRoster,

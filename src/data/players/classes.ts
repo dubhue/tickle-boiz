@@ -101,3 +101,4 @@ export class Player {
     this.isDraftable = !draftStatus;
   }
 }
+

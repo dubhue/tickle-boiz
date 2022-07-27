@@ -12,7 +12,7 @@ import { FaTimesCircle } from "react-icons/fa";
 import { Row, Col, Table, Form } from "react-bootstrap";
 //import { FantasyTeam } from "../../classes/fantasyTeam";
 import { useState } from "react";
-import { Player } from "../../data/players/classes";
+import { Player, PlayerDatabase } from "../../data/players/classes";
 import { depth } from "../../data/cheatSheets/depthChart/logic";
 
 const PlayerList = ({
@@ -20,7 +20,7 @@ const PlayerList = ({
   budget = 200
 }: // budget, toggle
 {
-  players: Player[];
+  players: PlayerDatabase;
   budget?: number;
 }) => {
   const [filteredPlayers, setFilteredPlayers] = useState([...players]);
@@ -30,15 +30,15 @@ const PlayerList = ({
     const val = e.currentTarget.value.split(" ");
     if (val[0] === "") {
       if (filter !== "") {
-        setFilteredPlayers([...players]);
+        setFilteredPlayers([...players.list]);
         setFilter("");
       }
     } else {
       setFilteredPlayers(
-        players.filter((p) => {
+        players.list.filter((p) => {
           const searchString = `${p.name} ${p.team?.full ? p.team.full : ""} ${
             p.team?.short ? p.team.short : ""
-          } ${p.pos+p.depth}${p.icons.isRookie ? ` rookie` : ``}`;
+          } ${p.pos + p.depth}${p.icons.isRookie ? ` rookie` : ``}`;
           //console.log();
           const regex = new RegExp(val.map((v) => `(?=.*${v})`).join(""), "i");
           return Array.isArray(searchString.match(regex));

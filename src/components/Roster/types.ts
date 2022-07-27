@@ -1,4 +1,4 @@
-import { Player } from "../../data/Player";
+import { Player } from "../../data/players/classes";
 import { RosterSlot } from "./classes";
 
 export type RosterPosition = "RB" | "WR" | "QB" | "D/ST" | "TE" | "K";
