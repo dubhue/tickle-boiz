@@ -30,12 +30,12 @@ const PlayerList = ({
     const val = e.currentTarget.value.split(" ");
     if (val[0] === "") {
       if (filter !== "") {
-        setFilteredPlayers([...players.list]);
+        setFilteredPlayers([...players]);
         setFilter("");
       }
     } else {
       setFilteredPlayers(
-        players.list.filter((p) => {
+        players.filter((p) => {
           const searchString = `${p.name} ${p.team?.full ? p.team.full : ""} ${
             p.team?.short ? p.team.short : ""
           } ${p.pos + p.depth}${p.icons.isRookie ? ` rookie` : ``}`;
