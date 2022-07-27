@@ -41,7 +41,6 @@ const sorted = allPlayers.sort((a, b) => {
   const bScore = b.score ? b.score : Infinity;
   return aScore > bScore ? 1 : aScore < bScore ? -1 : 0;
 });
-//console.log(allPlayers);
 
 const IndexPage = () => {
   const [team, setTeam] = useState<FantasyTeam>(
@@ -56,7 +55,7 @@ const IndexPage = () => {
     setTeam(t);
   };
   team.draftPlayer("jonathan-taylor-rb", handleTeam);
-  console.log(team);
+
   return (
     <Layout>
       <Seo title="Tickle Boiz" />

@@ -40,7 +40,7 @@ const PlayerList = ({
           const searchString = `${p.name} ${p.team?.full ? p.team.full : ""} ${
             p.team?.short ? p.team.short : ""
           } ${p.pos + p.depth}${p.icons.isRookie ? ` rookie` : ``}`;
-          //console.log();
+      
           const regex = new RegExp(val.map((v) => `(?=.*${v})`).join(""), "i");
           return Array.isArray(searchString.match(regex));
         })
@@ -48,104 +48,7 @@ const PlayerList = ({
       setFilter(val.join(" "));
     }
   };
-  // const handleDraft = (player) => {
-  //   if (myTeam instanceof FantasyTeam) {
-  //     myTeam.draft(player);
-  //   } else {
-  //     console.log("error drafting to:", myTeam);
-  //   }
-  // };
-
-  // const DraftButton = ({ player, keeper }) => {
-  //   const [isReadyToDraft, setIsReadyToDraft] = useState(false);
-  //   const [draftCost, setDraftCost] = useState(player.value`, 0));
-
-  //   const handleInput = (e) => {
-  //     setDraftCost(e.target.value);
-  //   };
-
-  //   return (
-  //     <div style={{ position: "relative" }}>
-  //       <form
-  //         onSubmit={(e) => {
-  //           e.preventDefault();
-  //           if (isReadyToDraft) {
-  //             const cost = draftCost ? draftCost : player.value;
-  //             console.log(`trying to draft ${player.name} for $${cost}`);
-  //             const newPlayer = {
-  //               ...player,
-  //               draftCost: cost
-  //             };
-  //             handleDraft(newPlayer);
-  //           }
-  //           setIsReadyToDraft(false);
-  //         }}>
-  //         <button
-  //           style={
-  //             isReadyToDraft
-  //               ? {
-  //                   transition: "all .3s ease",
-  //                   position: "absolute",
-  //                   top: 0,
-  //                   right: "100%",
-  //                   opacity: 1
-  //                 }
-  //               : {
-  //                   transition: "all .3s ease",
-  //                   position: "absolute",
-  //                   top: 0,
-  //                   right: 0,
-  //                   opacity: 0
-  //                 }
-  //           }
-  //           onClick={() => {
-  //             console.log(`canceled drafting ${player.name}`);
-  //             setIsReadyToDraft(false);
-  //           }}>
-  //           <FaTimesCircle />
-  //         </button>
-  //         {!isReadyToDraft ? (
-  //           <button
-  //             onClick={() => {
-  //               console.log(`Draft ${player.name}?`);
-  //               setIsReadyToDraft(true);
-  //             }}
-  //             disabled={keeper ? true : undefined}>
-  //             Draft
-  //           </button>
-  //         ) : (
-  //           <input
-  //             type="text"
-  //             value={draftCost}
-  //             style={{ width: "58px" }}
-  //             onChange={handleInput}
-  //           />
-  //         )}
-  //         <input
-  //           type="submit"
-  //           style={
-  //             isReadyToDraft
-  //               ? {
-  //                   transition: "all .3s ease",
-  //                   position: "absolute",
-  //                   top: 0,
-  //                   left: "98%",
-  //                   opacity: 1
-  //                 }
-  //               : {
-  //                   transition: "all .3s ease",
-  //                   position: "absolute",
-  //                   top: 0,
-  //                   right: 0,
-  //                   opacity: 0
-  //                 }
-  //           }
-  //           value={"✓"}
-  //         />
-  //       </form>
-  //     </div>
-  //   );
-  // };
+  
   return (
     <>
       <Form onSubmit={(e) => e.preventDefault()}>

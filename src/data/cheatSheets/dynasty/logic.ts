@@ -29,7 +29,7 @@ export const dynasty: DynastyAttributes[] = _dynasty
       : "SCRUB";
     const split = str.replace(parens, "").split(",");
     const name = split[0].trim();
-    //console.log(split[1])
+    
     const details = split[1].trim().split(" ");
     const short = details[0];
     const exp = details.length > 1 ? details[1].split("-") : 0;
@@ -39,8 +39,7 @@ export const dynasty: DynastyAttributes[] = _dynasty
     const year = parseInt(exp[0]);
     const posRank = _posRank ? _posRank[0] : "";
     const rank = parseInt(posRank.replace(/[^0-9.]/g,""));
-    //const rank = Array.isArray(_rank) ? _rank[0] : undefined
-    //console.log(posRank.match(/[^0-9.]/));
+
     return {
       dynastyRank:
         year !== new Date().getFullYear()

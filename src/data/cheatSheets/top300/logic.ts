@@ -29,7 +29,7 @@ export const top300: Top300Attributes[] = _top300
     const details = split[1].trim().split(" ");
     const short = details[0];
     const value = details[1] ? parseInt(details[1].replace("$", "")) : 0;
-    //console.log(name, posRank, pos, short, value);
+
     return {
       name,
       posRank,

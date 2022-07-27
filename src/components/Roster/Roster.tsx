@@ -9,7 +9,7 @@ const Wrap = styled(Container)`
 `;
 
 const RosterSlot = ({ name, short, bye, pos, draftCost }) => {
-  //console.log(name, short, bye, pos);
+
   return pos ? (
     <Row>
       <Col

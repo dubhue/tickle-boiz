@@ -36,7 +36,7 @@ export class Player {
   dynRank?: number;
   score?: number;
   constructor(node: PlayerAttributes) {
-    //console.log(node)
+
     const name = node.name;
     const pos = node.pos;
     const short = node.short;
