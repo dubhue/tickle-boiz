@@ -1,12 +1,11 @@
 import * as React from "react";
-import PropTypes from "prop-types";
-import { Link } from "gatsby";
 import { Container } from "react-bootstrap";
+import NflLogo from "./NflLogo";
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle = "TICKLE BOIZ" }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#013369`,
       marginBottom: `1.45rem`
     }}>
     <Container
@@ -15,25 +14,18 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`
       }}>
       <h6 style={{ margin: 0 }}>
-        <Link
-          to="/"
+        <NflLogo />
+        <span
           style={{
             color: `white`,
-            textDecoration: `none`
+            textDecoration: `none`,
+            marginLeft: `1rem`
           }}>
-          TICKLE BOIZ {/* {siteTitle} */}
-        </Link>
+          {siteTitle}
+        </span>
       </h6>
     </Container>
   </header>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string
-};
-
-Header.defaultProps = {
-  siteTitle: ``
-};
 
 export default Header;

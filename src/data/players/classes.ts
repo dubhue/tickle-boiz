@@ -74,7 +74,7 @@ export class Player {
     this.icons = {
       star:
         typeof pos === "string"
-          ? Array.isArray(pos.match(/^WR|RB$/) && posRank <= 10) ||
+          ? (Array.isArray(pos.match(/^WR|RB$/)) && posRank <= 10) ||
             (Array.isArray(pos.match(/^QB|TE$/)) && posRank <= 3)
           : false,
       rookie: draftYear === CURRENT_YEAR,

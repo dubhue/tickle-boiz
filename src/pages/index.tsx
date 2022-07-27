@@ -1,7 +1,6 @@
 import * as React from "react";
 import get from "lodash/get";
-import Layout from "../components/layout";
-import Seo from "../components/seo";
+import Layout from "../components/layout/Layout";
 import { Players } from "../data/Player";
 import { Player } from "../data/players/classes";
 import { keepers } from "../data/keepers";
@@ -17,6 +16,7 @@ import { nfl, Team } from "../data/teams/classes";
 import { dynasty, DynastyAttributes } from "../data/cheatSheets/dynasty/logic";
 import { depth, DepthAttributes } from "../data/cheatSheets/depthChart/logic";
 import { top300, Top300Attributes } from "../data/cheatSheets/top300/logic";
+import Seo from "../components/layout/Seo";
 
 export type PlayerList = Player[] | null;
 
@@ -45,7 +45,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="Tickle Boiz" />
       <Container fluid>
         <Row>
           <Col xs={12} sm={2} md={4}>
