@@ -1,12 +1,13 @@
 import * as React from "react";
 import {
-  FcApproval,
   FcLock,
-  FcClock,
-  FcChargeBattery,
+  FcAlarmClock,
+  FcGraduationCap,
   FcCloseUpMode,
   FcVlc,
-  FcPlus
+  FcPlus,
+  FcRating,
+  FcExternal
 } from "react-icons/fc";
 import { FaTimesCircle } from "react-icons/fa";
 import { Row, Col, Table, Form } from "react-bootstrap";
@@ -177,6 +178,7 @@ const PlayerList = ({
                 const isSecond = player.icons.backup;
                 const isVeteran = player.icons.veteran;
                 const isYoungin = player.icons.youngin;
+                const isGolden = player.icons.goldenAge;
                 const age = player.age;
                 const id = player.id;
                 const name = player.name;
@@ -219,7 +221,7 @@ const PlayerList = ({
                         ) : null}
                         {isStar ? (
                           <Col xs="auto">
-                            <FcApproval title={"Top Player"} />
+                            <FcRating title={"Top Player"} />
                           </Col>
                         ) : null}
                         {isStarter ? (
@@ -234,12 +236,12 @@ const PlayerList = ({
                         ) : null}
                         {isRookie ? (
                           <Col xs="auto">
-                            <FcChargeBattery title={"Rookie"} />
+                            <FcGraduationCap title={"Rookie"} />
                           </Col>
                         ) : null}
                         {isVeteran ? (
                           <Col xs="auto">
-                            <FcClock
+                            <FcAlarmClock
                               title={`Veteran: ${Math.floor(age)} Years Old`}
                             />
                           </Col>
@@ -249,6 +251,11 @@ const PlayerList = ({
                             <FcCloseUpMode
                               title={`${Math.floor(age)} Years Old`}
                             />
+                          </Col>
+                        ) : null}
+                        {isGolden ? (
+                          <Col xs="auto">
+                            <FcExternal title="Golden Age" />
                           </Col>
                         ) : null}
                       </Row>
