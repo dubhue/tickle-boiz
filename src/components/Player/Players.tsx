@@ -187,8 +187,8 @@ const PlayerList = ({
                 const depth = player.depth;
                 const team = player?.team?.short;
                 const rank = i + 1;
-                const _round = Math.ceil(rank / 12);
-                const round = _round <= 14 ? _round : "FA";
+
+                const round = Math.ceil(rank / 12);
                 return budget >= value ? (
                   <tr
                     key={id + i}
