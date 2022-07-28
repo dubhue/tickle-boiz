@@ -39,9 +39,7 @@ const PlayerList = ({
         players.filter((p) => {
           const searchString = `${p.name} ${p.team?.full ? p.team.full : ""} ${
             p.team?.short ? p.team.short : ""
-          } ${p.pos + p.depth}${
-            p.team?.bye ? `bye${p.team.bye}` : ""
-          }`;
+          } ${p.pos + p.depth}${p.team?.bye ? `bye${p.team.bye}` : ""}`;
 
           const regex = new RegExp(val.map((v) => `(?=.*${v})`).join(""), "i");
           return Array.isArray(searchString.match(regex));
@@ -91,9 +89,9 @@ const PlayerList = ({
                 const value = player.value;
                 const depth = player.depth;
                 const team = player?.team?.short;
-                const rank = i + 1;
+                const rank = player.rank;
                 const bye = player.team?.bye ? player.team.bye : 0;
-                const round = Math.ceil(rank / 12);
+                const round = player.round;
                 return budget >= value ? (
                   <tr
                     key={id + i}

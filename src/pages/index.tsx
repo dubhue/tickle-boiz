@@ -41,13 +41,18 @@ const sorted = allPlayers.sort((a, b) => {
   const bScore = b.score ? b.score : Infinity;
   return aScore > bScore ? 1 : aScore < bScore ? -1 : 0;
 });
+const sortedAndRanked = sorted.map((p, i) => {
+  p["rank"] = i + 1;
+  p["round"] = Math.ceil((i + 1) / 12);
+  return p;
+});
 
 const IndexPage = () => {
   const [team, setTeam] = useState<FantasyTeam>(
     new FantasyTeam({
       name: "Talyor Made",
       roster: slotConfiguration,
-      database: sorted
+      database: sortedAndRanked
     })
   );
 
