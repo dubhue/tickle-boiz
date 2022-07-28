@@ -39,8 +39,10 @@ const PlayerList = ({
         players.filter((p) => {
           const searchString = `${p.name} ${p.team?.full ? p.team.full : ""} ${
             p.team?.short ? p.team.short : ""
-          } ${p.pos + p.depth}${p.icons.isRookie ? ` rookie` : ``}`;
-      
+          } ${p.pos + p.depth}${
+            p.team?.bye ? `bye${p.team.bye}` : ""
+          }`;
+
           const regex = new RegExp(val.map((v) => `(?=.*${v})`).join(""), "i");
           return Array.isArray(searchString.match(regex));
         })
@@ -48,7 +50,7 @@ const PlayerList = ({
       setFilter(val.join(" "));
     }
   };
-  
+
   return (
     <>
       <Form onSubmit={(e) => e.preventDefault()}>
@@ -68,7 +70,7 @@ const PlayerList = ({
             <th>Round</th>
             <td>Projection</td>
             <th>Icons</th>
-            <th>Draft</th>
+            <th>Bye</th>
           </tr>
         </thead>
         <tbody>
@@ -90,7 +92,7 @@ const PlayerList = ({
                 const depth = player.depth;
                 const team = player?.team?.short;
                 const rank = i + 1;
-
+                const bye = player.team?.bye ? player.team.bye : 0;
                 const round = Math.ceil(rank / 12);
                 return budget >= value ? (
                   <tr
@@ -163,6 +165,7 @@ const PlayerList = ({
                         ) : null}
                       </Row>
                     </td>
+                    <td>{bye}</td>
                     {/* <td>
                     <DraftButton player={player} keeper={isKeeper} />
                   </td> */}
